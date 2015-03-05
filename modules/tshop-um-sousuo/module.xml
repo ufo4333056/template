@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-sousuo</id>
+    <uuid>45f3fa37831f4940aa8fe101f1a882ed</uuid>
+    <name>搜索</name>
+    <file>tshop-um-sousuo.php</file>
+    <thumbnail>../../assets/images/sousuo.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="搜索栏">
+            <section folded="false">
+                <param description="" formType="range" label="快捷入口类型" name="lnk_type" ptype="text">
+                     <option value="1" selected="selected">关键字</option>
+                     <option value="2">所有宝贝</option>
+                    
+              </param>
+                <param description="留空无标题" formType="text" label="关键字标题" name="key_titile" ptype="text">热门搜索：</param>
+                <param description="关键字间用#号分隔" formType="textarea" label="关键字" name="key_con" ptype="textarea">秋天#上衣</param>
+                <param description="" formType="text" label="预置搜索框文字" name="s_txt" ptype="text">羽绒</param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

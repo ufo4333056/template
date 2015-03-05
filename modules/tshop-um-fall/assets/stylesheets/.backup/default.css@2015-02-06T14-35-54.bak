@@ -1,0 +1,137 @@
+/**
+ * 模块：tshop-um-fall 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-fall"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-fall { }
+.tshop-um-fall .clear:after { content: "\20"; display: block; height: 0; clear: both; }
+.tshop-um-fall .clear { *zoom:1;
+}
+.tshop-um-fall, .tshop-um-fall a, .tshop-um-fall a:hover { text-decoration: none; color: #8D7865; }
+.tshop-um-fall .d_block { display: block; }
+.tshop-um-fall .d_none { display: none; visibility: hidden; }
+.tshop-um-fall .d_relative { position: relative; }
+.tshop-um-fall .d_absolute { position: absolute; }
+.tshop-um-fall .d_hide { overflow: hidden; }
+.tshop-um-fall .fleft { float: left; }
+.tshop-um-fall .fright { float: right; }
+.tshop-um-fall .f_yahei { font-family: "微软雅黑", tahoma; }
+.tshop-um-fall .f_st { font-family: tahoma, "宋体"; }
+.tshop-um-fall .d-picbg { display: block; overflow: hidden; height: 100%; background-position: center top; background-repeat: no-repeat; cursor: pointer; }
+.tshop-um-fall .d-pic230 { height: 230px; }
+.tshop-um-fall .d-pic210 { height: 210px; }
+.tshop-um-fall .d-pic310 { height: 310px; }
+.tshop-um-fall .no-items { height: 100px; line-height: 100px; text-align: center; background: #FFF; color: #D90000; border: 1px solid #EFDECA; }
+.tshop-um-fall .tghd .more, .tshop-um-fall .tghd { background: url(../../assets/images/pink-hd-pics.gif) no-repeat; }
+.tshop-um-fall .hdtype1 .tghd { overflow: hidden; }
+.tshop-um-fall .hdtype1 .tghd { height: 80px; overflow: hidden; background-position: center 0; border: 0px none; }
+.tshop-um-fall .type750 .hdtype1 .tghd { background-position: center -1298px; }
+.tshop-um-fall .type550 .hdtype1 .tghd { background-position: center -1388px; }
+.tshop-um-fall .hdtype1 .tghd h3 { padding: 22px; text-align: center; }
+.tshop-um-fall .hdtype1 .tghd h3 span { font-family: "微软雅黑", tahoma; font-size: 31px; font-weight: 700; color: #FFF; line-height: 1; }
+.tshop-um-fall .hdtype2 .tghd { height: 77px; background-position: 0px -90px; }
+.tshop-um-fall .hdtype2 .tghd h3 { padding: 16px 0 0 98px; }
+.tshop-um-fall .hdtype2 .tghd span { color: #FFF; line-height: 25px; *line-height:27px;
+_line-height: 25px; font-size: 25px; font-family: "微软雅黑", tahoma; }
+.tshop-um-fall .hdtype3 .tghd { height: 77px; background-position: -1px -178px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype3 .tghd h3 { padding: 17px 0 0 98px; }
+.tshop-um-fall .hdtype3 .tghd span { color: #FF6669; line-height: 25px; *line-height:27px;
+_line-height: 25px; font-size: 25px; font-family: "微软雅黑", tahoma; }
+.tshop-um-fall .hdtype4 .tghd { height: 34px; background-position: 0 -265px; }
+.tshop-um-fall .hdtype4 .tghd h3 { padding: 8px 0 0 45px; }
+.tshop-um-fall .hdtype4 .tghd span { font-family: "微软雅黑", tahoma; font-size: 14px; font-weight: 700; color: #FFF; line-height: 18px; *line-height:20px;
+_line-height: 18px; }
+.tshop-um-fall .hdtype5 .tghd { height: 108px; background-position: center -1180px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype5 .tghd h3 { padding: 59px 0 0 0px; text-align: center; }
+.tshop-um-fall .hdtype5 .tghd span { font-family: "微软雅黑", tahoma; font-size: 14px; font-weight: 700; color: #FFF; line-height: 18px; *line-height:20px;
+_line-height: 18px; }
+.tshop-um-fall .hdtype6 .tghd { height: 87px; background-position: -1px -309px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype7 .tghd { height: 87px; background-position: -1px -406px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype8 .tghd { height: 87px; background-position: -1px -503px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype9 .tghd { height: 87px; background-position: -1px -600px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype10 .tghd { height: 87px; background-position: -1px -697px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype11 .tghd { height: 87px; background-position: -1px -794px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype12 .tghd { height: 87px; background-position: -1px -891px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype13 .tghd { height: 87px; background-position: -1px -988px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .hdtype14 .tghd { height: 87px; background-position: -1px -1085px; border-width: 0 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-fall .tghd .more { float: right; margin: -39px 13px 0 0; width: 77px; height: 30px; overflow: hidden; background-position: 0 -1938px; }
+.tshop-um-fall .hdtype2 .more, .tshop-um-fall .hdtype4 .more { background-position: 0 -1969px; }
+.tshop-um-fall .hdtype .tghd .more, .tshop-um-fall .hdtype4 .tghd .more { margin-top: -32px; }
+.tshop-um-fall .tgbd-top-bd-no .tgbd, .tshop-um-fall .hdtype0 .tgbd { margin-top: 0px; }
+.tshop-um-fall .tgbd { margin-top: 6px; overflow: hidden; }
+.tshop-um-fall .tgbd .coll { float: left; width: 234px; margin-left: 5px; }
+.tshop-um-fall .tgbd .c0 { margin-left: 0; }
+.tshop-um-fall .tgbd .r0 { margin-top: 0; }
+.tshop-um-fall .type950 .tgbd .c2 { margin-left: 4px; }
+.tshop-um-fall .picbgbox { width: 232px; background: #FFF; border-width: 1px; border-style: solid; border-color: #EFDECA; margin-top: 5px; padding-bottom: 7px; }
+.tshop-um-fall .picbgbox .pic-bd { padding: 11px 11px 4px; }
+.tshop-um-fall .picbgbox .d-picbg { border-width: 0; border-color: #FF6669; border-style: solid; position: relative; }
+.tshop-um-fall .picbgbox .pic-box { padding: 1px; display: block; overflow: hidden; }
+.tshop-um-fall .picbgbox .item_hover:hover { padding: 0; }
+.tshop-um-fall .picbgbox .item_hover:hover .d-picbg { border-width: 1px; }
+.tshop-um-fall .tgbd .desc { padding: 0 6px; display: none; border-bottom: 1px dotted #EFDECA; margin: 0 11px; line-height: 1.5; }
+.tshop-um-fall .tgbd .desc a { display: block; height: 40px; line-height: 18px; overflow: hidden; }
+.tshop-um-fall .tgbd .desc div { padding: 5px 0px; }
+.tshop-um-fall .tgbd .info-r1 { height: 17px; overflow: hidden; line-height: 17px; padding: 10px 0 8px; display: none; margin: 0 11px; }
+.tshop-um-fall .tgbd .sales, .tshop-um-fall .tgbd .collect { float: right; text-align: right; height: 18px; line-height: 18px; *line-height:20px;
+_line-height: 18px; overflow: hidden; display: block; }
+.tshop-um-fall .tgbd .sales b, .tshop-um-fall .tgbd .collect b, .tshop-um-fall .tgbd .price em { font-family: arial; font-weight: 700; }
+.tshop-um-fall .tgbd .show_collect .collect, .tshop-um-fall .tgbd .show_sales .sales { display: inline; }
+.tshop-um-fall .tgbd .info-r1 .price-ico, .tshop-um-fall .tgbd .info-r1 .price { display: inline-block; overflow: hidden; vertical-align: middle; }
+.tshop-um-fall .tgbd .info-r1 .price-ico { height: 17px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico em { line-height: 17px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico b { display: none; }
+.tshop-um-fall .tgbd .info-r1 .price-ico, .tshop-um-fall .tgbd .info-r1 .price-ico0 b { background: url(../../assets/images/pink-price-icos.gif) no-repeat; }
+.tshop-um-fall .tgbd .info-r1 .price-ico { margin-right: 5px; width: 51px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico1 { width: 51px; background-position: 0 -20px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico2 { width: 40px; background-position: 0 -40px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico3 { width: 40px; background-position: 0 -60px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico4 { width: 29px; background-position: 0 -80px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico5 { width: 29px; background-position: 0 -100px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico6 { width: 29px; background-position: 0 -120px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico7 { width: 29px; background-position: 0 -140px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico8 { width: 36px; background-position: 0 -160px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico9 { width: 28px; background-position: 0 -180px; }
+.tshop-um-fall .tgbd .info-r1 .price-ico0 { width: auto; background-position: 0 0; }
+.tshop-um-fall .tgbd .info-r1 .price-ico0 b { font-weight: 400; color: #FFF; background-position: right -200px; display: inline-block; line-height: 17px; height: 17px; width: 48px; height: 100%; padding-right: 8px; vertical-align: top; text-align: center; }
+.tshop-um-fall .tgbd .info-r1 .price { font-family: arial; font-weight: 700; color: #FF6669; font-size: 13px; }
+.tshop-um-fall .tgbd .desc_on .desc, .tshop-um-fall .tgbd .sinfo_on .info-r1 { display: block; }
+.tshop-um-fall .tgbd .tg-btnbox { text-align: center; margin: 0 11px; text-align: left; }
+.tshop-um-fall .tgbd .share { width: 50px; height: 23px; overflow: hidden; background: #FF6766 url(../../assets/images/pink-s-c-l-icos.gif) no-repeat -3px 0px; }
+.tshop-um-fall .tgbd .sc { width: 50px; height: 23px; overflow: hidden; background: #FE9901 url(../../assets/images/pink-s-c-l-icos.gif) no-repeat -60px 0px; }
+.tshop-um-fall .tgbd .tg-btn { display: none; cursor: pointer; margin-right: 2px; }
+.tshop-um-fall .tgbd .show_like .like, .tshop-um-fall .tgbd .show_share .share, .tshop-um-fall .tgbd .show_sc .sc { display: inline-block; vertical-align: top; }
+.tshop-um-fall .tgbd .show_share .share-2 { background: url(../../assets/images/share-icos.gif) no-repeat -54px 0; width: 116px; }
+.tshop-um-fall .common-like, .tshop-um-fall .common-like:hover { background: #2EC2C6 url(../../assets/images/pink-s-c-l-icos.gif) no-repeat -112px 0px; border: 0 none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+.tshop-um-fall .common-like .sns-like-wrap { background: none no-repeat right bottom; height: 23px; }
+.tshop-um-fall .common-like .dig-button { display: block; width: 40px; float: left; height: 20px; overflow: hidden; }
+.tshop-um-fall .common-like .dig-button .dig-icon { visibility: hidden; }
+.tshop-um-fall .common-like .dig-count { float: left; text-align: center; width: 37px; overflow: hidden; margin-left: 3px; line-height: 25px; height: 21px; white-space: nowrap; color: #8D7865; }
+.tshop-um-fall .common-like .dig-count .c, .tshop-um-fall .common-like .dig-count span { float: left; }
+.tshop-um-fall .common-like { cursor: pointer; width: 80px; height: 23px; line-height: 23px; padding: 0px 3px; text-align: left; }
+.tshop-um-fall .common-like .dig-button-title { padding-left: 20px; visibility: hidden; }
+.tshop-um-fall .simple-like .tb-dig-tip, .tshop-um-fall .common-like .tb-dig-tip { width: 200px; top: -50px; left: -120px; }
+.tshop-um-fall .simple-like .tb-dig-tip .arrow, .tshop-um-fall .common-like .tb-dig-tip .arrow { margin: -1px 0 0 180px; }
+.tshop-um-fall .tgbd .picbgbox .two-dim { width: 70px; height: 70px; overflow: hidden; visibility: hidden; position: absolute; }
+.tshop-um-fall .tgbd .picbgbox .two-dim img { width: 70px; height: 70px; }
+.tshop-um-fall .tgbd .picbgbox .two-dim-hover:hover { zoom: 1; }
+.tshop-um-fall .tgbd .picbgbox .two-dim-show .two-dim, .tshop-um-fall .tgbd .picbgbox .two-dim-hover:hover .two-dim { visibility: visible; }
+.tshop-um-fall .tgbd .picbgbox .td-left_top { left: 0px; top: 0px; }
+.tshop-um-fall .tgbd .picbgbox .td-right_top { right: 0px; top: 0px; }
+.tshop-um-fall .tgbd .picbgbox .td-left_bottom { left: 0px; bottom: 0px; }
+.tshop-um-fall .tgbd .picbgbox .td-right_bottom { right: 0px; bottom: 0px; }
+.tshop-um-fall .type750 .tgbd .coll { width: 248px; margin-left: 3px; }
+.tshop-um-fall .type750 .picbgbox { width: 246px; padding-bottom: 4px; }
+.tshop-um-fall .type750 .picbgbox .pic-bd { padding: 7px 7px 3px; }
+.tshop-um-fall .type750 .picbgbox .d-picbg { width: 230px; position: relative; }
+.tshop-um-fall .tgbd .d-picbg .cico-t { position: absolute; height: 26px; padding: 1px; overflow: hidden; background: #FF6669; color: #FFF; }
+.tshop-um-fall .tgbd .d-picbg .cico-t .cico-bd { height: 24px; border: 1px solid #FFF; text-align: center; padding: 0 10px; line-height: 24px; font-weight: 700; font-size: 14px; font-family: "微软雅黑", tahoma; float: left; }
+.tshop-um-fall .tgbd .d-picbg .left_top { left: 8px; top: 8px; }
+.tshop-um-fall .tgbd .d-picbg .right_top { right: 8px; top: 8px; }
+.tshop-um-fall .tgbd .d-picbg .left_bottom { left: 8px; bottom: 8px; }
+.tshop-um-fall .tgbd .d-picbg .right_bottom { right: 8px; bottom: 8px; }

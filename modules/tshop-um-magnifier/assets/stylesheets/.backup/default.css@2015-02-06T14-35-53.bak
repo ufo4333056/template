@@ -1,0 +1,152 @@
+/**
+ * 模块：tshop-um-magnifier 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-magnifier"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-magnifier { }
+.tshop-um-magnifier .clear:after { content: "\20"; display: block; height: 0; clear: both; }
+.tshop-um-magnifier .clear { *zoom:1;
+}
+.tshop-um-magnifier, .tshop-um-magnifier a, .tshop-um-magnifier a:hover { text-decoration: none; color: #8F7765; }
+.tshop-um-magnifier .f_yahei { font-family: "微软雅黑", tahoma; }
+.tshop-um-magnifier .f_st { font-family: tahoma, "宋体"; }
+.tshop-um-magnifier .d_block { display: block; }
+.tshop-um-magnifier .d_none { display: none; visibility: hidden; }
+.tshop-um-magnifier .d_relative { position: relative; }
+.tshop-um-magnifier .d_absolute { position: absolute; }
+.tshop-um-magnifier .d_hide { overflow: hidden; }
+.tshop-um-magnifier .fleft { float: left; }
+.tshop-um-magnifier .fright { float: right; }
+.tshop-um-magnifier .tg-picbg { display: block; overflow: hidden; height: 100%; background-repeat: no-repeat; }
+.tshop-um-magnifier .tg-pic130 { width: 130px; height: 130px; }
+.tshop-um-magnifier .tg-pic170 { width: 170px; height: 170px; }
+.tshop-um-magnifier .tg-pic220 { width: 220px; height: 220px; }
+.tshop-um-magnifier .tg-pic290 { width: 290px; height: 290px; }
+.tshop-um-magnifier .tg-pic310 { width: 310px; height: 310px; }
+.tshop-um-magnifier .tg-pic430 { width: 430px; height: 430px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic130 { height: 200px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic170 { height: 240px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic220 { height: 310px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic290 { height: 400px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic310 { height: 430px; }
+.tshop-um-magnifier .pic_shape1 .tg-pic430 { height: 570px; }
+.tshop-um-magnifier .tg-w130 { width: 130px; }
+.tshop-um-magnifier .tg-w170 { width: 170px; }
+.tshop-um-magnifier .tg-w220 { width: 220px; }
+.tshop-um-magnifier .tg-w290 { width: 290px; }
+.tshop-um-magnifier .tg-w310 { width: 310px; }
+.tshop-um-magnifier .tg-w430 { width: 430px; }
+.tshop-um-magnifier .no { height: 100px; line-height: 100px; text-align: center; background: #FFF; color: #D90000; border: 1px solid #EFDFCA; }
+.tshop-um-magnifier .tghd .more, .tshop-um-magnifier .tghd { background: url(../../assets/images/pink-hd-pics.gif) no-repeat; }
+.tshop-um-magnifier .hdtype1 .tghd { overflow: hidden; }
+.tshop-um-magnifier .hdtype1 .tghd { height: 80px; overflow: hidden; background-position: center 0; border: 0px none; }
+.tshop-um-magnifier .type750 .hdtype1 .tghd { background-position: center -1298px; }
+.tshop-um-magnifier .type550 .hdtype1 .tghd { background-position: center -1388px; }
+.tshop-um-magnifier .hdtype1 .tghd h3 { padding: 22px; text-align: center; }
+.tshop-um-magnifier .hdtype1 .tghd h3 span { font-family: "微软雅黑", tahoma; font-size: 31px; font-weight: 700; color: #FFF; line-height: 1; }
+.tshop-um-magnifier .hdtype2 .tghd { height: 77px; background-position: 0px -90px; }
+.tshop-um-magnifier .hdtype2 .tghd h3 { padding: 16px 0 0 98px; }
+.tshop-um-magnifier .hdtype2 .tghd span { color: #FFF; line-height: 25px; *line-height:27px;
+_line-height: 25px; font-size: 25px; font-family: "微软雅黑", tahoma; }
+.tshop-um-magnifier .hdtype3 .tghd { height: 77px; background-position: -1px -178px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype3 .tghd h3 { padding: 17px 0 0 98px; }
+.tshop-um-magnifier .hdtype3 .tghd span { color: #FF6666; line-height: 25px; *line-height:27px;
+_line-height: 25px; font-size: 25px; font-family: "微软雅黑", tahoma; }
+.tshop-um-magnifier .hdtype4 .tghd { height: 34px; background-position: 0 -265px; }
+.tshop-um-magnifier .hdtype4 .tghd h3 { padding: 8px 0 0 45px; }
+.tshop-um-magnifier .hdtype4 .tghd span { font-family: "微软雅黑", tahoma; font-size: 14px; font-weight: 700; color: #FFF; line-height: 18px; *line-height:20px;
+_line-height: 18px; }
+.tshop-um-magnifier .hdtype5 .tghd { height: 108px; background-position: center -1180px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype5 .tghd h3 { padding: 59px 0 0 0px; text-align: center; }
+.tshop-um-magnifier .hdtype5 .tghd span { font-family: "微软雅黑", tahoma; font-size: 14px; font-weight: 700; color: #FFF; line-height: 18px; *line-height:20px;
+_line-height: 18px; }
+.tshop-um-magnifier .hdtype6 .tghd { height: 87px; background-position: -1px -309px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype7 .tghd { height: 87px; background-position: -1px -406px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype8 .tghd { height: 87px; background-position: -1px -503px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype9 .tghd { height: 87px; background-position: -1px -600px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype10 .tghd { height: 87px; background-position: -1px -697px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype11 .tghd { height: 87px; background-position: -1px -794px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype12 .tghd { height: 87px; background-position: -1px -891px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype13 .tghd { height: 87px; background-position: -1px -988px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .hdtype14 .tghd { height: 87px; background-position: -1px -1085px; border-width: 0 1px; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .tghd .more { float: right; margin: -39px 13px 0 0; width: 77px; height: 30px; overflow: hidden; background-position: 0 -1938px; }
+.tshop-um-magnifier .hdtype2 .more, .tshop-um-magnifier .hdtype4 .more { background-position: 0 -1969px; }
+.tshop-um-magnifier .hdtype .tghd .more, .tshop-um-magnifier .hdtype4 .tghd .more { margin-top: -32px; }
+.tshop-um-magnifier .tgbd-top-bd-no .tgbd, .tshop-um-magnifier .hdtype0 .tgbd { margin-top: 0px; }
+.tshop-um-magnifier { zoom: 1; }
+.tshop-um-magnifier .tgbd { margin-top: 6px; background: #FFF; }
+.tshop-um-magnifier .tgbd { border-width: 1px 1px 0; border-style: solid; border-color: #EFDFCA; }
+.tshop-um-magnifier .tg-box-bottom { border-top: 1px solid #EFDFCA; height: 0px; overflow: hidden; margin-top: -1px; }
+.tshop-um-magnifier .tgbd .pic-bg { background-position: center; background-repeat: no-repeat; }
+.tshop-um-magnifier .tgbd .item-box { float: left; border-width: 0px 1px 1px 0px; border-style: solid; border-color: #EFDFCA; }
+#page #content .tshop-um-magnifier .tgbd .c-0 { border-right-width: 0; }
+.tshop-um-magnifier .tgbd .item { width: 220px; padding: 8px; }
+.tshop-um-magnifier .tgbd .tribox { background: #FFF; }
+.tshop-um-magnifier .tgbd .s-pic { position: relative; margin: 0 auto; width: 100%; height: 100%; }
+.tshop-um-magnifier .tgbd .s-pic span { display: table-cell; text-align: center; vertical-align: middle; overflow: hidden; *display:block;
+*font-family:arial;
+*line-height:1.0;
+}
+.tshop-um-magnifier .tgbd .s-pic img { vertical-align: middle; display: block; margin: 0 auto; }
+.tshop-um-magnifier .tgbd .tg-picbg { position: relative; }
+.tshop-um-magnifier .tgbd .bigpicbox { position: absolute; visibility: hidden; background-color: #FFF; border: 1px solid #EFDFCA; padding: 6px; *display:none;
+}
+.tshop-um-magnifier .tgbd .info { position: absolute; bottom: 0px; left: 0px; color: #FFF; width: 100%; height: 46px; background: url(http://img.taobao.com/L1/142/416621956/assets/images/markbg.png); }
+.tshop-um-magnifier .bigpicbox .info .price { font-family: "微软雅黑", tahoma; float: left; width: 150px; height: 46px; line-height: 46px; background: #FF6666; text-align: center; font-size: 16px; overflow: hidden; }
+.tshop-um-magnifier .bigpicbox .info .price em { font-family: arial; padding-left: 2px; font-size: 31px; font-weight: 700; }
+.tshop-um-magnifier .bigpicbox .info .desc { float: right; overflow: hidden; height: 18px; padding-top: 6px; text-align: left; width: 280px; }
+.tshop-um-magnifier .bigpicbox .no_val .desc { height: 36px; }
+.tshop-um-magnifier .bigpicbox .info .desc span { display: inline-block; padding: 0 10px; }
+.tshop-um-magnifier .bigpicbox .info .sales { float: right; width: 280px; text-align: left; }
+.tshop-um-magnifier .bigpicbox .info .sales span { padding: 0 10px; }
+.tshop-um-magnifier .bigpicbox .info .sales b { font-family: arial; color: #F1D71B; padding: 0 3px; }
+.tshop-um-magnifier .s-info { overflow: hidden; height: 47px; }
+.tshop-um-magnifier .s-info .price-box { color: #FFF; float: left; text-align: center; background-color: #FF6666; height: 35px; padding: 6px 0; width: 74px; line-height: 18px; }
+.tshop-um-magnifier .s-info .price { font-family: arial; font-weight: 700; font-size: 14px; }
+.tshop-um-magnifier .s-info .price em { font-family: arial; font-size: 18px; }
+.tshop-um-magnifier .s-info1 { float: left; padding: 5px 0; height: 37px; overflow: hidden; width: 146px; background: #FFF9F2; }
+.tshop-um-magnifier .s-info1 .desc { height: 18px; overflow: hidden; line-height: 18px; padding: 0 7px; }
+.tshop-um-magnifier .s-info1 .nprice { padding-left: 7px; float: left; height: 18px; overflow: hidden; line-height: 18px; }
+.tshop-um-magnifier .s-info1 .nprice s, .tshop-um-magnifier .s-info1 .sales b, .tshop-um-magnifier .s-info1 .collect b { font-family: arial; color: #8F7765; }
+.tshop-um-magnifier .s-info1 .sales, .tshop-um-magnifier .s-info1 .collect { display: block; padding-right: 7px; float: right; height: 18px; overflow: hidden; line-height: 18px; }
+.tshop-um-magnifier .tgbd .show_collect .collect, .tshop-um-magnifier .tgbd .show_sales .sales { display: block; }
+.tshop-um-magnifier .type950 .s-size-220 .c-1 .item { padding-left: 9px; }
+.tshop-um-magnifier .type750 .s-size-220 .item { width: 220px; padding: 12px 14px 12px; }
+.tshop-um-magnifier .type750 .s-size-220 .c-1 .item { padding: 12px 15px 12px 14px; }
+.tshop-um-magnifier .type750 .s-size-220 .c-0 .item { padding: 12px 15px 12px 14px; }
+.tshop-um-magnifier .type550 .s-size-220 .item { width: 220px; padding: 15px 27px 15px 26px; }
+.tshop-um-magnifier .type550 .s-size-220 .c-0 .item { padding: 15px 27px 15px 27px; }
+.tshop-um-magnifier .s-size-130 .item { width: 130px; padding: 2px; }
+.tshop-um-magnifier .s-size-130 .s-info .s-info1 .nprice, .tshop-um-magnifier .s-size-130 .s-info .price-box { display: none; }
+.tshop-um-magnifier .s-size-130 .s-info .s-info1 { width: auto; float: none; }
+.tshop-um-magnifier .type950 .s-size-130 .c-1 .item, .tshop-um-magnifier .type950 .s-size-130 .c-0 .item { padding: 2px 3px; }
+.tshop-um-magnifier .type750 .s-size-130 .item { width: 130px; padding: 9px; }
+.tshop-um-magnifier .type750 .s-size-130 .c-1 .item, .tshop-um-magnifier .type750 .s-size-130 .c-0 .item { padding: 9px 10px; }
+.tshop-um-magnifier .type550 .s-size-130 .item { width: 130px; padding: 3px; }
+.tshop-um-magnifier .type550 .s-size-130 .c-1 .item { padding: 3px 3px 3px 4px; }
+.tshop-um-magnifier .s-size-170 .item { width: 170px; padding: 9px; }
+.tshop-um-magnifier .s-size-170 .s-info .s-info1 { width: 96px; }
+.tshop-um-magnifier .s-size-170 .s-info .nprice { display: none; }
+.tshop-um-magnifier .type950 .s-size-170 .c-1 .item, .tshop-um-magnifier .type950 .s-size-170 .c-0 .item { padding: 9px 10px 9px; }
+.tshop-um-magnifier .type750 .s-size-170 .item { width: 170px; padding: 8px; }
+.tshop-um-magnifier .type750 .s-size-170 .c-0 .item { padding: 8px 8px 8px 9px; }
+.tshop-um-magnifier .type750 .s-size-170 .c-1 .item { padding: 8px 8px 8px 8px; }
+.tshop-um-magnifier .type550 .s-size-170 .item { width: 170px; padding: 6px; }
+.tshop-um-magnifier .bigpicbox .sales, .tshop-um-magnifier .bigpicbox .collect { display: none; }
+.tshop-um-magnifier .bigpicbox .show_collect .collect, .tshop-um-magnifier .bigpicbox .show_sales .sales { display: block; }
+.tshop-um-magnifier .b-size-290 .info .price { font-size: 12px; width: 120px; }
+.tshop-um-magnifier .b-size-290 .info .price em { font-size: 28px; }
+.tshop-um-magnifier .b-size-290 .info .desc, .tshop-um-magnifier .b-size-290 .info .sales { width: 170px; }
+.tshop-um-magnifier .b-size-310 .info .price { width: 130px; }
+.tshop-um-magnifier .b-size-310 .info .desc, .tshop-um-magnifier .b-size-310 .info .sales { width: 180px; }
+.tshop-um-magnifier .b-size-430 .info .price { width: 150px; }
+.tshop-um-magnifier .b-size-430 .info .desc, .tshop-um-magnifier .b-size-430 .info .sales { width: 280px; }
+.tshop-um-magnifier .tgbd .tri { display: block; width: 100%; height: 100%; }
+.tshop-um-magnifier .tgbd .tri:hover { position: relative; z-index: 99; }
+.tshop-um-magnifier .tgbd .tri:hover .bigpicbox { visibility: visible; *display:block;
+}

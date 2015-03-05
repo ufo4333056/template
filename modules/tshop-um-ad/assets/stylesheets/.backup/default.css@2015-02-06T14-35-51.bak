@@ -1,0 +1,44 @@
+/**
+ * 模块：tshop-um-ad 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ad"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+.tshop-um-ad { }
+
+.tshop-um-ad .um_guide .um_guide_c { overflow: hidden; }
+.tshop-um-ad .um_guide .guide_bg_big { background: url(../../assets/images/pink-guide_p.gif) no-repeat; height: 277px; }
+.tshop-um-ad .um_guide .gbb_s2 { background-position: 0 -277px; }
+.tshop-um-ad .um_guide .guide_bg_small { background: url(../../assets/images/pink-guide_p_s.gif) no-repeat; height: 208px; }
+.tshop-um-ad .um_guide .gbs_s2 { background-position: 0 -208px; }
+.tshop-um-ad .um_guide .guide_bg_big a { width: 306px; height: 129px; display: block; _display: inline; float: left; margin: 5px; }
+.tshop-um-ad .um_guide .guide_bg_big a.a_1, .tshop-um-ad .um_guide .guide_bg_big a.a_4 { margin: 5px 5px 5px 4px; width: 308px; }
+.tshop-um-ad .um_guide .guide_bg_big a.a_r_1 { margin: 4px 5px 5px 5px; }
+.tshop-um-ad .um_guide .guide_bg_small a { width: 226px; height: 94px; display: block; _display: inline; float: left; margin: 5px 5px 5px 6px; }
+.tshop-um-ad .um_guide .guide_bg_small a.a_r_1 { margin: 4px 5px 5px 6px; }
+.tshop-um-ad .um_guide .guide_bg_small a.a_1, .tshop-um-ad .um_guide .guide_bg_small a.a_5 { margin-right: 7px; }
+.tshop-um-ad .um_guide .gbb_s1 .hover-on a, .tshop-um-ad .um_guide .gbs_s1 .hover-on a { background: #888888; filter:;
+opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=0);
+transition: opacity 1s; -moz-transition: opacity 1s; -webkit-transition: opacity 1s; -o-transition: opacity 1s; }
+.tshop-um-ad .um_guide .gbb_s1 .hover-on a:hover, .tshop-um-ad .um_guide .gbs_s1 .hover-on a:hover { background: #888888; filter:;
+opacity: 0.3; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=30);
+}
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a:hover { background-image: url(../../assets/images/pink-guide_p.gif); }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a:hover { background-image: url(../../assets/images/pink-guide_p_s.gif); }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_0:hover { background-position: -6px -421px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_1:hover { background-position: -243px -421px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_2:hover { background-position: -482px -421px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_3:hover { background-position: -719px -421px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_4:hover { background-position: -6px -524px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_5:hover { background-position: -243px -524px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_6:hover { background-position: -482px -524px; }
+.tshop-um-ad .um_guide .gbs_s2 .hover-on a.a_7:hover { background-position: -719px -524px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_0:hover { background-position: -5px -559px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_1:hover { background-position: -320px -559px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_2:hover { background-position: -638px -559px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_3:hover { background-position: -5px -697px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_4:hover { background-position: -321px -697px; }
+.tshop-um-ad .um_guide .gbb_s2 .hover-on a.a_5:hover { background-position: -639px -697px; }

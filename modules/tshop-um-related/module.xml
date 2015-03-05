@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-related</id>
+    <uuid>78b31c313b9a4ddf811de67043fc5f7a</uuid>
+    <name>关联推荐+多色宝贝</name>
+    <file>tshop-um-related.php</file>
+    <thumbnail>../../assets/images/related.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="宝贝">
+            <section title="" folded="false">
+                <param description="" formType="range" label="显示组合数" name="group_cnt" ptype="text">
+          <option value="3" selected="selected">3组</option>
+          <option value="6">6组</option>
+        
+        </param>
+            </section>
+            <section title="组1" folded="true">
+                <param description="" formType="itemForm" label="【组1】主宝贝1个" name="main_item1" ptype="item">21</param>
+                <param description="尺寸：300*(300/400)，关联宝贝模式设置一张图片，多色宝贝模式每个图片间用#号分隔，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_1" ptype="textarea">http://gtms03.alicdn.com/tps/i3/TB1pofhHXXXXXXFXVXXc8PZ9XXX-130-200.png#http://gtms02.alicdn.com/tps/i2/TB17qnrHXXXXXXdXVXXc8PZ9XXX-130-200.png#http://gtms02.alicdn.com/tps/i2/TB17qnrHXXXXXXdXVXXc8PZ9XXX-130-200.png#http://gtms02.alicdn.com/tps/i2/TB17qnrHXXXXXXdXVXXc8PZ9XXX-130-200.png</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_1" ptype="item"/>
+            </section>
+            <section title="组2" folded="true">
+                <param description="" formType="itemForm" label="【组2】主宝贝1个" name="main_item2" ptype="item">16</param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_2" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_2" ptype="item">22</param>
+            </section>
+            <section title="组3" folded="true">
+                <param description="" formType="itemForm" label="【组3】主宝贝1个" name="main_item3" ptype="item">22</param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_3" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_3" ptype="item">22</param>
+            </section>
+            <section title="组4" folded="true">
+                <param description="" formType="itemForm" label="【组4】主宝贝1个" name="main_item4" ptype="item">22</param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_4" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_4" ptype="item">22</param>
+            </section>
+            <section title="组5" folded="true">
+                <param description="" formType="itemForm" label="【组5】主宝贝1个" name="main_item5" ptype="item">22</param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_5" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_5" ptype="item">22</param>
+            </section>
+            <section title="组6" folded="true">
+                <param description="" formType="itemForm" label="【组6】主宝贝1个" name="main_item6" ptype="item">22</param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="item_pics_6" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg</param>
+                <param description="关联宝贝模式不选择自动加载4个宝贝" formType="itemForm" label="副宝贝4个" name="items_6" ptype="item">22</param>
+            </section>
+        </group>
+        <group title="宝贝参数">
+            <section title="宝贝参数" folded="false">
+                <param description="" formType="range" label="价格小数" name="jinpinzs_pricexshu" ptype="text">
+          <option value="2">2位</option>
+          <option value="1" selected="selected">1位</option>
+          <option value="0">隐藏</option>
+        </param>
+                <param description="" formType="range" label="销量收藏显示" name="sale_show" ptype="text">
+          <option value="1">销量</option>
+          <option value="2" selected="selected">收藏量</option>
+          <option value="0">不显示</option>
+        </param>
+                <param description="" formType="text" label="价格图标文字" name="price_pre" ptype="text">RMB</param>
+                <param description="" formType="text" label="销量单位" name="sales_extra" ptype="text">件</param>
+                <param description="" formType="range" label="价格单位" name="price_uint" ptype="text">
+          <option value="元" selected="selected">元</option>
+          <option value="">无</option>
+        </param>
+                <param description="" formType="checkbox" label="显示按钮" name="pbtn_show" ptype="text">
+          <option value="show_share" selected="selected">分享</option>
+          <option value="show_collect" selected="selected">收藏</option>
+        </param>
+            </section>
+        </group>
+        <group title="标题">
+            <section title="标题栏设置" folded="false">
+                <param description="" formType="select" label="标题类型" name="title_type" ptype="text">
+          <option value="1">居中大标题(可自写标题文字)</option>
+          <option value="2" selected="selected">靠左大标题一(可自写标题文字)</option>
+          <option value="3">靠左大标题二(可自写标题文字)</option>
+          <option value="4">靠左小标题(可自写标题文字)</option>
+          <option value="5">居中小标题(可自写标题文字)</option>
+          <option value="0">不显示标题栏</option>
+        </param>
+                <param description="" formType="text" label="标题文字" name="title_txt" ptype="textarea"/>
+                <param description="" formType="range" label="“查看更多”显隐" name="more_show" ptype="textarea">
+          <option value="1" selected="selected">显示</option>
+          <option value="0">隐藏</option>
+        </param>
+                <param description="" formType="text" label="“查看更多”链接" name="more_url" ptype="textarea"/>
+            </section>
+            <section title="标题栏自定义图片设置" folded="false">
+                <param description="" formType="text" label="图片高度" name="valuetj_bjheight" ptype="textarea">100</param>
+                <param description="" formType="text" label="图片链接" name="valuetj_bjtu" ptype="textarea"/>
+                <param description="" formType="text" label="页面链接" name="valuetj_bjlink" ptype="textarea"/>
+            </section>
+        </group>
+        <group title="设置">
+            <section title="" folded="false">
+                <param description="" formType="range" label="模块功能" name="mod_fn" ptype="text">
+          <option value="0" selected="selected">多色宝贝展示</option>
+          <option value="1">关联宝贝推荐</option>
+        </param>
+            </section>
+            <section title="多色宝贝轮播效果" folded="false">
+                <param description="" formType="range" label="自动轮播" name="autoplay" ptype="text">
+          <option value="true">是</option>
+          <option value="false" selected="selected">否</option>
+        </param>
+                <param description="" formType="select" label="动画方式" name="effect" ptype="text">       
+			<option value="fade" selected="selected">渐隐渐显</option>
+			<option value="scrolly">垂直滚动</option>
+			<option value="scrollx">水平滚动</option>
+			<option value="none">最朴素的显示/隐藏效果</option>	
+        </param>
+                <param description="" formType="select" label="动画效果" name="easing" ptype="text">       
+			
+			<option value="elasticIn">抖动变幻</option>
+			<option value="elasticOut">变幻弹性</option>
+			<option value="backOut">来回弹性-舒适</option>
+			<option value="bounceOut">来回弹性-强烈</option>
+			<option value="bounceBoth">动感震动</option>
+			<option value="easeBothStrong">慢到快-动感</option>
+			<option value="easeInStrong">慢到快-强烈</option>
+			<option value="easeIn" selected="selected">慢到快-舒适</option>
+			<option value="easeOutStrong">快到慢-强烈</option>
+			<option value="easeOut">快到慢-舒适</option>
+			<option value="easeBoth">简单滚动</option>
+			<option value="easeNone">简单匀速</option>
+	
+        </param>
+            </section>
+            <section title="宝贝图片设置" folded="false">
+                <param description="" formType="range" label="图片规格" name="pic_shape" ptype="text">
+          <option value="0" selected="selected">正方形</option>
+          <option value="1">长方形</option>
+        </param>
+                <param description="" formType="select" label="图片裁剪" name="pic_cut" ptype="text">
+          <option value="left top">显示左上部分</option>
+          <option value="left center">显示左中部分</option>
+          <option value="left bottom">显示左下部分</option>
+          <option value="center top">显示中上部分</option>
+          <option value="center center" selected="selected">显示中间部分</option>
+          <option value="center bottom">显示中下部分</option>
+          <option value="right top">显示右上部分</option>
+          <option value="right center">显示右中部分</option>
+          <option value="right bottom">显示右下部分</option>
+        </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

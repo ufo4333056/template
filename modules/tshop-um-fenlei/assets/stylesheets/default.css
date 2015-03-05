@@ -1,0 +1,85 @@
+/**
+ * 模块：tshop-um-fenlei 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-fenlei"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-fenlei { margin-bottom: 8px; }
+.tshop-um-fenlei .clear:after { content: "\20"; display: block; height: 0; clear: both; }
+.tshop-um-fenlei .clear { *zoom:1;
+}
+.tshop-um-fenlei a, .tshop-um-fenlei a:hover { text-decoration: none; color: #8F7765; }
+.tshop-um-fenlei .fleft { float: left; }
+.tshop-um-fenlei .fright { float: right; }
+.tshop-um-fenlei .f_yahei { font-family: "微软雅黑", tahoma; }
+.tshop-um-fenlei .f_st { font-family: tahoma, "宋体"; }
+.tshop-um-fenlei .mod { border-bottom: 0; background: #FFF; }
+.tshop-um-fenlei .type950 { width: 950px; }
+.tshop-um-fenlei .type750 { width: 750px; }
+.tshop-um-fenlei .no-items { height: 100px; line-height: 100px; text-align: center; background: #FFF; color: #D90000; border: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-search .keyword .search-btn, .tshop-um-fenlei .mod-cates .row-style1 .sform .search-btn, .tshop-um-fenlei .mod-cates .row-style .pcat-right, .tshop-um-fenlei .mod-cates .row-style1 .left-search .title-bg, .tshop-um-fenlei .mod-cates .col-style .cat a, .tshop-um-fenlei .mod-cates .col-style .sub-cats li { background: url(../../assets/images/pink-cat-icos.gif) no-repeat; }
+.tshop-um-fenlei .mod-cates .sub-cats i { background: url(../../assets/images/hots.gif) no-repeat; }
+.tshop-um-fenlei .mod-cates .tgbd { border: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-cates .am_cats { overflow: hidden; }
+.tshop-um-fenlei .mod-cates .cat { white-space: nowrap; }
+.tshop-um-fenlei .mod-cates .sub-catbox { overflow: auto; }
+.tshop-um-fenlei .mod-cates .row-style .tgbd { border-bottom: 0 none; }
+.tshop-um-fenlei .mod-cates .row-style .cat-bd { padding: 10px 15px; }
+.tshop-um-fenlei .mod-cates .row-style .cat { float: left; height: 29px; padding: 7px 10px 7px 5px; margin-right: 1px; _margin-right: -2px; font-weight: 700; font-size: 12px; text-align: center; line-height: 19px; }
+.tshop-um-fenlei .mod-cates .row-style .pcat-left, .tshop-um-fenlei .mod-cates .row-style .pcat-right { display: block; overflow: hidden; float: left; }
+.tshop-um-fenlei .mod-cates .row-style .pcat-left { padding: 0; background: #FF6666; }
+.tshop-um-fenlei .mod-cates .row-style .pcat-right { padding: 5px 0; height: 19px; background-position: bottom right; background-repeat: repeat-x; }
+.tshop-um-fenlei .mod-cates .row-style .cat a { color: #000; display: block; color: #FFF; min-width: 107px; _width: 107px; *line-height:21px;
+padding: 0 5px; }
+.tshop-um-fenlei .mod-cates .row-style .cat-row { overflow: hidden; border-top: 1px dotted #EFDFCA; *vertical-align:top;
+_vertical-align: baseline; }
+.tshop-um-fenlei .mod-cates .row-style .sub-catbox { padding: 7px 0px 7px; }
+.tshop-um-fenlei .mod-cates .row-style .row-0 { border-top: 0 none; }
+.tshop-um-fenlei .mod-cates .row-style .sub-cats li { float: left; height: 19px; white-space: nowrap; padding: 5px 0 5px 8px; line-height: 19px; }
+.tshop-um-fenlei .mod-cates .row-style .tg-box-bd { height: 1px; overflow: hidden; border-top: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-cates .row-style .sp-str { padding-left: 8px; }
+.tshop-um-fenlei .mod-cates .row-style1 .cat-bd { float: left; width: 713px; padding: 10px 13px; }
+.tshop-um-fenlei .mod-cates .row-style1 .left-search { width: 208px; overflow: hidden; }
+.tshop-um-fenlei .mod-cates .row-style1 .search-left .left-search { float: left; border-right: 1px solid #EFDFCA; margin-right: -1px; }
+.tshop-um-fenlei .mod-cates .row-style1 .search-right .left-search { float: right; border-left: 1px solid #EFDFCA; margin-left: -1px; }
+.tshop-um-fenlei .mod-cates .row-style1 .search-left .cat-bd { border-left: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-cates .row-style1 .search-right .cat-bd { border-right: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-cates .row-style1 .left-search .title-bg { height: 70px; background-position: 0 -65px; }
+.tshop-um-fenlei .mod-cates .row-style1 .left-search .sform { height: 31px; overflow: hidden; width: 180px; margin: 0 auto; padding: 0; }
+.tshop-um-fenlei .mod-cates .row-style1 .sform .text { height: 29px; width: 137px; padding: 0 0 0 5px; margin: 0; line-height: 29px; border: 1px solid #EFDFCA; overflow: hidden; float: left; color: #AFAFAF; }
+.tshop-um-fenlei .mod-cates .row-style1 .sform .search-btn { float: left; cursor: pointer; width: 36px; height: 31px; border: 0 none; background-position: -81px 0; padding: 0; margin: 0px; }
+.tshop-um-fenlei .mod-cates .row-style1 .key-box { overflow: hidden; width: 150px; padding: 7px 0 20px 15px; }
+.tshop-um-fenlei .mod-cates .row-style1 .key-box a { display: block; border-bottom: 1px dotted #EFDFCA; height: 25px; line-height: 25px; }
+
+.tshop-um-fenlei .mod-cates .col-style { background: url(assets/images/fenlei_bg.png); }
+.tshop-um-fenlei .mod-cates .col-style .cat-row { overflow: hidden; background: none; }
+.tshop-um-fenlei .mod-cates .col-style .cat { height: 34px; text-align: left; line-height: 34px; *line-height:36px;
+_line-height: 34px; border-bottom: 1px solid #EFDFCA; }
+.tshop-um-fenlei .mod-cates .col-style .cat a { display: block; height: 100%; overflow: hidden; color: #FF6666; font-size: 14px; font-weight: 700; padding-left: 33px; background-position: -184px 12px; }
+.tshop-um-fenlei .mod-cates .col-style .sub-cats { padding: 6px 12px 0; }
+.tshop-um-fenlei .mod-cates .col-style .sub-catbox { padding: 0px 0 0px; overflow: hidden; _zoom: 1; text-align: left; _text-align: center; }
+.tshop-um-fenlei .mod-cates .col-style .sub-cats li { text-align: left; padding: 6px 0px 3px 0px; height: 18px; overflow: hidden; white-space: nowrap; background-position: 130px 12px; }
+.tshop-um-fenlei .mod-cates .col-style .sub-cats li.no-cat { padding: 6px 0px 3px 0px; height: 18px; border: 0 none; background: none; }
+.tshop-um-fenlei .mod-cates .col-style .tg-box-bd { height: 1px; overflow: hidden; background: #EFDFCA; margin-top: -1px; }
+.tshop-um-fenlei .mod-cates .col-style .sp-str { display: none; }
+.tshop-um-fenlei .mod-cates .type950 .col-style .cat-row { float: left; width: 157px; padding-bottom: 11px; }
+.tshop-um-fenlei .mod-cates .type950 .col-style .col-0 { width: 158px; }
+.tshop-um-fenlei .mod-cates .type950 .col-style .col-5 { border-right: 0 none; }
+.tshop-um-fenlei .mod-cates .type750 .col-style .cat-row { width: 186px; padding: 0 0 11px 0; }
+.tshop-um-fenlei .mod-cates .type750 .col-style .col-0, .tshop-um-fenlei .mod-cates .type750 .col-style .col-4 { width: 187px; }
+.tshop-um-fenlei .mod-cates .type750 .col-style .col-3 { border-right: 0 none; }
+.tshop-um-fenlei .mod-cates .type750 .col-style .sub-cats li { background-position: 135px 9px; }
+.tshop-um-fenlei .mod-cates .type750 .row-style1 .cat-bd { width: 513px; }
+.tshop-um-fenlei .mod-cates .type750 .col-style .sub-cats li { background-position: 155px 12px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i { display: inline-block; width: 21px; overflow: hidden; margin-left: 5px; height: 12px; vertical-align: top; background-position: 0 -1000px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_a { background-position: 0 0px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_b { background-position: 0 -22px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_c { background-position: 0 -44px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_d { background-position: 0 -66px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_e { background-position: 0 -88px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats i.hot_f { background-position: 0 -110px; }
+#page #content .tshop-um-fenlei .mod-cates .sub-cats li a span { _display: inline-block; _vertical-align: baseline; cursor: pointer; }

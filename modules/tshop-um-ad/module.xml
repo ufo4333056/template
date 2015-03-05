@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ad</id>
+    <uuid>5872d221dd634c67a116b4af2d3db1ab</uuid>
+    <name>类目图导购</name>
+    <file>tshop-um-ad.php</file>
+    <thumbnail>../../assets/images/ad.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="类目图导购">
+            <section title="" folded="false">
+                <param description="风格选择" formType="select" label="风格选择" name="guide_s" ptype="text">
+                    <option value="s_s1">小图1(彩色)</option>  
+                    <option value="s_s2">小图2(灰度)</option>
+					<option value="b_s1" selected="selected">大图1(彩色)</option>
+					<option value="b_s2">大图1(灰度)</option>
+                </param>
+                <param description="图片高度" formType="text" label="图片高度" name="g_height" ptype="number"/>
+                <param description="尺寸：950*277(大图)、950*208(小图)，整张图片" formType="text" label="图片地址" name="g_pic" ptype="text"/>
+                <param description="顺序从左到右，一一对应，链接间用#号分隔，如：http://www.taobao.com#http://www.taobao.com" formType="textarea" label="自定义链接" name="g_link" ptype="textarea">http://item.taobao.com/item.htm?id=408483565811#http://item.taobao.com/item.htm?id=408483565811</param>
+            </section>
+        </group>
+        <group title="设置">
+            <section title="" folded="false">
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-jp1</id>
+    <uuid>4462121e3a624774bd86e9c3d2086fc5</uuid>
+    <name>精品推荐</name>
+    <file>tshop-um-jp1.php</file>
+    <thumbnail>../../assets/images/jp1.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="宝贝">
+            <section title="筛选宝贝" folded="false">
+                <param description="描述信息就是要太长！" formType="range" label="分类选择器" name="select_type" ptype="text">
+          <option value="1" selected="selected">自动</option>
+          <option value="2">手动</option>
+          <option value="3">类目</option>
+          <option value="4">关键字</option>
+        </param>
+                <param description="可选择多个类目" formType="categoryForm" label="分类选择器" name="cates" ptype="category">[ {&#xd;
+          "childIds" : "131,132,133,134",&#xd;
+          "rid" : "130"&#xd;
+          }, {&#xd;
+          "childIds" : "121,122,123",&#xd;
+          "rid" : "120"&#xd;
+          }, {&#xd;
+          "childIds" : "112",&#xd;
+          "rid" : "110"&#xd;
+          } ]</param>
+                <param description="" formType="itemForm" label="宝贝选择器" name="items" ptype="item">22,21,20,16</param>
+                <param description="" formType="text" label="按关键字筛选" name="keys" ptype="textarea"/>
+                <param description="设置自定义宝贝图片后自动按选择顺序排序" formType="select" label="展示宝贝顺序" name="orderby" ptype="text">
+          <option value="_ceofp" selected="selected">优先展示人气宝贝</option>
+          <option value="_hotsell">优先展示热销宝贝</option>
+          <option value="_HotKeep">优先展示热门收藏宝贝</option>
+          <option value="_newOn">优先展示新上架的宝贝</option>
+          <option value="newOn">优先展示较早上架的宝贝</option>
+          <option value="price">优先展示低价格宝贝</option>
+          <option value="_price">优先展示高价格宝贝</option>
+          <option value="items_order">按选择顺序(自定义宝贝时有效)</option>
+        </param>
+                <param description="限20个" formType="text" label="宝贝数量" name="items_cnt" ptype="textarea">12</param>
+            </section>
+        </group>
+        <group title="宝贝参数">
+            <section title="宝贝参数" folded="false">
+                <param description="" formType="range" label="价格小数" name="jinpinzs_pricexshu" ptype="text">
+          <option value="2">2位</option>
+          <option value="1" selected="selected">1位</option>
+          <option value="0">隐藏</option>
+        </param>
+                <param description="" formType="range" label="销量收藏显示" name="sale_show" ptype="text">
+          <option value="1" selected="selected">销量</option>
+          <option value="2">收藏量</option>
+          <option value="0">不显示</option>
+        </param>
+                <param description="" formType="text" label="价格图标文字" name="price_pre" ptype="text">RMB</param>
+                <param description="" formType="text" label="销量单位" name="sales_extra" ptype="text">件</param>
+                <param description="" formType="range" label="价格单位" name="price_uint" ptype="text">
+          <option value="元" selected="selected">元</option>
+          <option value="">无</option>
+        </param>
+                <param description="" formType="checkbox" label="显示按钮" name="pbtn_show" ptype="text">
+          <option value="show_share">分享</option>
+          <option value="show_collect">收藏</option>
+          <option value="show_like">喜欢</option>
+        </param>
+            </section>
+        </group>
+        <group title="标题">
+            <section title="标题栏设置" folded="false">
+                <param description="" formType="select" label="标题类型" name="title_type" ptype="text">
+          <option value="1">居中大标题(可自写标题文字)</option>
+          <option value="2" selected="selected">靠左大标题一(可自写标题文字)</option>
+          <option value="3">靠左大标题二(可自写标题文字)</option>
+          <option value="4">靠左小标题(可自写标题文字)</option>
+          <option value="5">居中小标题(可自写标题文字)</option>
+          <option value="0">不显示标题栏</option>
+        </param>
+                <param description="" formType="text" label="标题文字" name="title_txt" ptype="textarea"/>
+                <param description="" formType="range" label="“查看更多”显隐" name="more_show" ptype="textarea">
+          <option value="1" selected="selected">显示</option>
+          <option value="0">隐藏</option>
+        </param>
+                <param description="" formType="text" label="“查看更多”链接" name="more_url" ptype="textarea"/>
+            </section>
+            <section title="标题栏自定义图片设置" folded="false">
+                <param description="" formType="text" label="图片高度" name="valuetj_bjheight" ptype="textarea">100</param>
+                <param description="" formType="text" label="图片链接" name="valuetj_bjtu" ptype="textarea"/>
+                <param description="" formType="text" label="页面链接" name="valuetj_bjlink" ptype="textarea"/>
+            </section>
+        </group>
+        <group title="设置">
+            <section title="宝贝图片设置" folded="false">
+                <param description="" formType="range" label="图片规格" name="pic_shape" ptype="text">
+          <option value="0" selected="selected">正方形</option>
+          <option value="1">长方形</option>
+         
+        </param>
+                <param description="括号内数值分别对应950/750/550区域的宽度，无对应宽度的区域不支持该布局" formType="select" label="图片规格" name="pic_size" ptype="text">
+			<option value="460#570#2,360#460#2">2个(460/360)</option>
+			<option value="300#400#3,230#310#3">3个(300/230)</option>
+			<option value="220#310#4,230#310#3" selected="selected">4个(220/无)</option>
+			
+		</param>
+                <param description="" formType="select" label="图片裁剪" name="pic_cut" ptype="text">
+          <option value="left top">显示左上部分</option>
+          <option value="left center">显示左中部分</option>
+          <option value="left bottom">显示左下部分</option>
+          <option value="center top">显示中上部分</option>
+          <option value="center center" selected="selected">显示中间部分</option>
+          <option value="center bottom">显示中下部分</option>
+          <option value="right top">显示右上部分</option>
+          <option value="right center">显示右中部分</option>
+          <option value="right bottom">显示右下部分</option>
+        </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

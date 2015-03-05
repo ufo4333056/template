@@ -1,0 +1,108 @@
+/**
+ * 模块：tshop-um-slidepic 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-slidepic"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-slidepic { margin-bottom: 8px; }
+.tshop-um-slidepic .clear:after { content: "\20"; display: block; height: 0; clear: both; }
+.tshop-um-slidepic .clear { zoom: 1; }
+.tshop-um-slidepic a:hover { text-decoration: none; }
+.tshop-um-slidepic .d_block { display: block; }
+.tshop-um-slidepic .d_none { display: none; visibility: hidden; }
+.tshop-um-slidepic .d_relative { position: relative; }
+.tshop-um-slidepic .d_absolute { position: absolute; }
+.tshop-um-slidepic .d_hide { overflow: hidden; }
+.tshop-um-slidepic .f_yahei { font-family: "微软雅黑", tahoma; }
+.tshop-um-slidepic .f_st { font-family: tahoma, "宋体"; }
+.tshop-um-slidepic .mod { background: #FFF; zoom: 1; border-color: #EFDFCA; border-style: solid; }
+.tshop-um-slidepic .def_pic { background: url(assets/images/s.jpg) no-repeat center top; }
+.tshop-um-slidepic .type750 .def_pic { background: url(assets/images/ss.jpg) no-repeat center top; }
+.tshop-um-slidepic .spic3 .page_btnbox a, .tshop-um-slidepic .spic3 .page_btnbox span, .tshop-um-slidepic .spic3 { overflow: hidden; position: relative; }
+.tshop-um-slidepic .spic3-box { z-index: 1; width: 100%; }
+.tshop-um-slidepic .spic3 .spic3-navbox { bottom: 0; display: block; z-index: 21; position: absolute;  bottom:0px; }
+.tshop-um-slidepic .nav-type1 .nav-site1 { left: 15px; bottom: 10px; height: 15px; }
+.tshop-um-slidepic .nav-type1 .nav-site3 { right: 15px; bottom: 10px; height: 15px; }
+.tshop-um-slidepic .nav-type1 .nav-site2 { left: 50%; bottom: 10px; width: 100%; }
+.tshop-um-slidepic .nav-type1 .nav-site2 .nav-cenet { float: left; }
+.tshop-um-slidepic .nav-type1 .nav-site2 ul { float: left; position: relative; left: -50%; }
+.tshop-um-slidepic .nav-type1 .nav-site2 li { height: 64px; overflow: hidden; }
+.tshop-um-slidepic .nav-type1 .spic3-navbox { height: 15px; z-index: 21; }
+.tshop-um-slidepic .nav-type1 .spic3-navbox li { float: left; width: 21px; height: 15px; text-align: center; margin-right: 1px; line-height: 15px; overflow: hidden; }
+.tshop-um-slidepic .nav-type1 .spic3-navbox li b { display: block; height: 15px; overflow: hidden; cursor: pointer; background: #8F7765; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+color: #FFF; font-family: arial; font-size: 10px; font-weight: 400; }
+.tshop-um-slidepic .nav-type1 .spic3-navbox li b.act-b { margin-top: -15px; background: #FF6666; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+visibility: hidden; }
+.tshop-um-slidepic .nav-type1 .spic3-navbox li.current b.act-b { visibility: visible; }
+.tshop-um-slidepic .nav-type2 .nav-site1 { left: 15px; bottom: 10px; height: 15px; }
+.tshop-um-slidepic .nav-type2 .nav-site3 { right: 15px; bottom: 10px; height: 15px; }
+.tshop-um-slidepic .nav-type2 .nav-site2 { left: 50%; bottom: 10px; width: 100%; }
+.tshop-um-slidepic .nav-type2 .nav-site2 .nav-cenet { float: left; }
+.tshop-um-slidepic .nav-type2 .nav-site2 ul { float: left; position: relative; left: -50%; }
+.tshop-um-slidepic .nav-type2 .nav-site2 li { height: 64px; overflow: hidden; }
+.tshop-um-slidepic .nav-type2 .spic3-navbox { height: 15px; z-index: 21; }
+.tshop-um-slidepic .nav-type2 .spic3-navbox li { float: left; width: 21px; height: 15px; text-align: center; margin-right: 3px; line-height: 15px; overflow: hidden; }
+.tshop-um-slidepic .nav-type2 .spic3-navbox li b { display: block; border: 1px solid #FFF; height: 13px; overflow: hidden; cursor: pointer; background: #8F7765; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+color: #FFF; font-family: arial; font-size: 10px; font-weight: 400; }
+.tshop-um-slidepic .nav-type2 .spic3-navbox li b.act-b { margin-top: -15px; border-color: #FFF; background: #FF6666; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+visibility: hidden; }
+.tshop-um-slidepic .nav-type2 .spic3-navbox li.current b.act-b { visibility: visible; }
+.tshop-um-slidepic .nav-type3 .nav-site1 { left: 15px; bottom: 10px; height: 10px; }
+.tshop-um-slidepic .nav-type3 .nav-site3 { right: 15px; bottom: 10px; height: 10px; }
+.tshop-um-slidepic .nav-type3 .nav-site2 { left: 50%; bottom: 10px; width: 100%; }
+.tshop-um-slidepic .nav-type3 .nav-site2 .nav-cenet { float: left; }
+.tshop-um-slidepic .nav-type3 .nav-site2 ul { float: left; position: relative; left: -50%; }
+.tshop-um-slidepic .nav-type3 .nav-site2 li { height: 64px; overflow: hidden; }
+.tshop-um-slidepic .nav-type3 .spic3-navbox { height: 10px; z-index: 21; }
+.tshop-um-slidepic .nav-type3 .spic3-navbox li { float: left; width: 10px; height: 10px; text-align: center; margin-right: 5px; line-height: 0; overflow: hidden; }
+.tshop-um-slidepic .nav-type3 .spic3-navbox li b { display: block; height: 10px; overflow: hidden; cursor: pointer; background: url(http://img.taobao.com/L1/142/415421526/modules/tshop-um-slidepic/assets/images/icos.png) no-repeat 0 -70px; }
+.tshop-um-slidepic .nav-type3 .spic3-navbox li b.act-b { margin-top: -10px; background-position: -20px -90px; visibility: hidden; }
+.tshop-um-slidepic .nav-type3 .spic3-navbox li.current b.act-b { visibility: visible; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox b { margin: 0 0 0 1px; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox .first_nav b { margin: 0; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox { overflow: hidden; height: 30px; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox .spic3-nav { position: static; width: 100%; height: 30px; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox li { height: 30px; margin: 0; float: left; text-align: center; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox li b { height: 30px; font-size: 12px; line-height: 30px; color: #FFF; font-weight: normal; display: block; background: #918378; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+}
+.tshop-um-slidepic .nav-type4 .spic3-navbox li b.act-b { margin-top: -30px; background: #FF6666; color: #FFF; height: 30px; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+visibility: hidden; }
+.tshop-um-slidepic .nav-type4 .spic3-navbox li.current b.act-b { visibility: visible; }
+.tshop-um-slidepic .spic3-navbox li div { display: none; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li b { display: none; }
+.tshop-um-slidepic .nav-type5 .nav-site2 { left: 50%; bottom: 10px; width: 100%; }
+.tshop-um-slidepic .nav-type5 .nav-site2 .nav-cenet { float: left; }
+.tshop-um-slidepic .nav-type5 .nav-site2 ul { float: left; position: relative; left: -50%; }
+.tshop-um-slidepic .nav-type5 .nav-site2 li { height: 54px; overflow: hidden; float: left; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox .nav-cenet { float: left; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li div { display: block; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li { margin-left: 5px; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li div.def { padding: 2px; background: #FFF; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li div.act { padding: 2px; background: #FF6666; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li div img { height: 50px; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox .l0 { margin-left: 0px; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox .def-hb1, .tshop-um-slidepic .nav-type5 .spic3-navbox .def-hb2, .tshop-um-slidepic .nav-type5 .spic3-navbox .def-hb3 { background: url(assets/images/nico-ic.jpg) no-repeat 0px 0; height: 50px; width: 120px; }
+.tshop-um-slidepic .nav-type5 .spic3-navbox li.current div.def { display: none; }
+.tshop-um-slidepic .spic3 .spic3-con a { display: block; width: 100%; height: 100%; float: left; overflow: hidden; }
+.tshop-um-slidepic .spic3 .spic3-con img { vertical-align: top; }
+.tshop-um-slidepic .spic3 .page_btnbox { position: absolute; right: 20px; bottom: 10px; height: 30px; width: 107px; z-index: 21; }
+.tshop-um-slidepic .spic3 .page_btnbox .page_btn_bg { height: 30px; }
+.tshop-um-slidepic .spic3 .page_btnbox span { display: block; width: 53px; height: 30px; cursor: pointer; background: url(assets/images/icos.png) no-repeat; }
+.tshop-um-slidepic .spic3 .page_btnbox b { display: block; float: left; width: 53px; height: 30px; background: #000; filter:;
+opacity: 0.7; filter:progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=70);
+}
+.tshop-um-slidepic .spic3 .page_btnbox .nextbtn { float: right; }
+.tshop-um-slidepic .spic3 .page_btnbox .nextbtn span { background-position: -53px 0; }
+.tshop-um-slidepic .nav-type1 .bsite3, .tshop-um-slidepic .nav-type2 .bsite3, .tshop-um-slidepic .nav-type3 .bsite3 { bottom: 30px; }
+.tshop-um-slidepic .nav-type4 .page_btnbox { bottom: 40px; }
+.tshop-um-slidepic .nav-type5 .page_btnbox { bottom: 10px; }

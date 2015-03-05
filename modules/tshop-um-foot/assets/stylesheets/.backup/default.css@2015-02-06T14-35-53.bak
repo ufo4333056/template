@@ -1,0 +1,48 @@
+/**
+ * 模块：tshop-um-foot 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-foot"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-foot { }
+.tshop-um-foot .clear:after { content: "\20"; display: block; height: 0; clear: both; }
+.tshop-um-foot .clear { zoom: 1; }
+.tshop-um-foot, .tshop-um-foot a, .tshop-um-foot a:hover { text-decoration: none; color: #8D7865; }
+.tshop-um-foot .d_none { display: none; }
+.tshop-um-foot .mod { background: #FFF; overflow: hidden; }
+.tshop-um-foot { margin-bottom: 5px; }
+.tshop-um-foot .f_yahei { font-family: "微软雅黑", tahoma; }
+.tshop-um-foot .f_st { font-family: tahoma, "宋体"; }
+.tshop-um-foot .r3 { height: 108px; overflow: hidden; border-width: 0 1px 1px; border-style: solid; border-color: #EFDECA; background-color: #FFF9F3; }
+.tshop-um-foot .r3 .about { height: 108px; overflow: hidden; width: 940px; margin: 0 auto; }
+.tshop-um-foot .about .about-ul { float: left; }
+.tshop-um-foot .about .about-ul li { float: left; height: 108px; width: 172px; padding: 0 35px 0 27px; text-align: left; overflow: hidden; border-right: 1px solid #EFDECA; }
+.tshop-um-foot .about .about-ul .l4 { border-right: 0 none; padding-right: 0; }
+.tshop-um-foot .about h5 { font-size: 12px; overflow: hidden; height: 33px; line-height: 38px; color: #FF6666; }
+.tshop-um-foot .about .txt { height: 56px; line-height: 18px; *line-height:20px;
+_line-height: 18px; overflow: hidden; }
+.tshop-um-foot .r2 { overflow: hidden; border-width: 0 1px 1px; border-style: solid; border-color: #EFDECA; }
+.tshop-um-foot .r2 .serverbox { height: 20px; padding: 10px 0 9px; text-align: center; width: 100%; margin: 0 auto; line-height: 20px; overflow: hidden; }
+.tshop-um-foot .r2 .serverbox .ww-title { padding-left: 20px; }
+.tshop-um-foot .r2 .serverbox a { margin-left: 8px; padding-right: 2px; display: inline-block; height: 20px; line-height: 20px; overflow: hidden; vertical-align: middle; *vertical-align:bottom;
+}
+.tshop-um-foot .r2 .serverbox a img { vertical-align: text-bottom; }
+.tshop-um-foot .r2 .serverbox .work_time { padding-left: 25px; }
+.tshop-um-foot .btb { border-top: 4px solid #FF6669; }
+.tshop-um-foot .ft_guide { width: 950px; margin-bottom: 5px; overflow: hidden; }
+.tshop-um-foot .ft_guide_def { height: 129px; background: url(../../assets/images/pink_guide.gif) no-repeat; }
+.tshop-um-foot .r1 { height: 38px; border: 1px solid #EFDECA; border-top: 0; }
+.tshop-um-foot .focus, .tshop-um-foot .key-box { float: left; padding-left: 10px; }
+.tshop-um-foot .focus { padding-top: 5px; padding-right: 10px; _width: 180px; }
+.tshop-um-foot .keyword .text { width: 138px; height: 27px; border: 1px solid #EFDECA; overflow: hidden; float: left; color: #AFAFAF; }
+.tshop-um-foot .search-btn { background: url(../../assets/images/pink-search_btn.gif) no-repeat; width: 35px; height: 29px; border: 0 none; float: left; vertical-align: top; cursor: pointer; }
+.tshop-um-foot .key-box { line-height: 38px; }
+.tshop-um-foot .key-box span { padding: 0 3px; }
+.tshop-um-foot .sform { float: left; }
+.tshop-um-foot .navbtn { width: 85px; height: 22px; background: #ABC816 url(../../assets/images/btns_bg2.gif); display: block; _display: inline; float: right; margin-top: 9px; margin-right: 15px; cursor: pointer; }
+.tshop-um-foot .ns2 { background-position: -98px 0; background-color: #FF6669; }
+.tshop-um-foot .ns1 { background-position: -195px 0; background-color: #30BFC5; }

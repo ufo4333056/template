@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-slidepic</id>
+    <uuid>932b3f7a2be24b03b65c7c0c84f3074c</uuid>
+    <name>图片轮播-卡盘</name>
+    <file>tshop-um-slidepic.php</file>
+    <thumbnail>../../assets/images/slidepic.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="图片设置">
+            <section title="基础设置" folded="false">
+                <param description="" formType="select" label="图片数量" name="num" ptype="number">
+                    <option value="1">1</option>
+                    <option value="2" selected="selected">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+
+                </param>
+                <param description="" formType="text" label="图片高度" name="height" ptype="number">400</param>
+            </section>
+            <section title="图片设置" folded="false">
+                <param description="" formType="text" label="1-图片地址" name="pic0" ptype="text">http://img.taobao.com/L1/142/415421526/modules/tshop-um-slidepic/assets/images/s.jpg</param>
+                <param description="" formType="text" label="超链接" name="url0" ptype="text">#</param>
+                <param description="" formType="text" label="标题" name="title0" ptype="text">请设置轮播标题</param>
+                <param description="" formType="text" label="2-图片地址" name="pic1" ptype="text">http://img.taobao.com/L1/142/415421526/modules/tshop-um-slidepic/assets/images/s.jpg</param>
+                <param description="" formType="text" label="超链接" name="url1" ptype="text">#</param>
+                <param description="" formType="text" label="标题" name="title1" ptype="text">请设置轮播标题</param>
+                <param description="" formType="text" label="3-图片地址" name="pic2" ptype="text">http://img.taobao.com/L1/142/415421526/modules/tshop-um-slidepic/assets/images/s.jpg</param>
+                <param description="" formType="text" label="超链接" name="url2" ptype="text">#</param>
+                <param description="" formType="text" label="标题" name="title2" ptype="text">请设置轮播标题</param>
+                <param description="" formType="text" label="4-图片地址" name="pic3" ptype="text">http://img.taobao.com/L1/142/415421526/modules/tshop-um-slidepic/assets/images/s.jpg</param>
+                <param description="" formType="text" label="超链接" name="url3" ptype="text">#</param>
+                <param description="" formType="text" label="标题" name="title3" ptype="text">请设置轮播标题</param>
+            </section>
+        </group>
+        <group title="轮播设置">
+            <section title="轮播设置" folded="false">
+                <param description="底部切换按钮" formType="select" label="底部切换按钮" name="switchablenav" ptype="text">
+                     <option value="1" selected="selected">显示</option>
+                    <option value="0">不显示</option> 
+                </param>
+                <param description="两侧按钮" formType="select" label="两侧按钮" name="btncls" ptype="text">
+                     <option value="1" selected="selected">显示</option>
+                    <option value="0">不显示</option> 
+                </param>
+                <param description="一张图切换到第二张图的速度" formType="select" label="滚动速度" name="duration" ptype="text">                    
+                    <option value="0.1">快</option>
+                    <option value="0.3" selected="selected">中</option>
+                    <option value="0.5">较慢</option>
+                    <option value="1">慢</option>
+   
+                </param>
+                <param description="每隔多少秒刷新一次" formType="select" label="切换图片间隔" name="interval" ptype="text">                    
+                    <option value="1">1秒</option>
+                    <option value="2">2秒</option>
+                    <option value="3" selected="selected">3秒</option>
+                    <option value="4">4秒</option>
+                    <option value="5">5秒</option>
+   
+                </param>
+                <param description="选择切换时的动画效果" formType="select" label="动画效果" name="effect" ptype="text">
+                   
+                    <option value="none">朴素效果</option>
+                    <option value="scrolly">垂直滚动</option>
+                    <option value="scrollx" selected="selected">水平滚动</option>
+                    <option value="fade">渐变滚动</option>
+   
+                </param>
+                <param description="一张图片轮播到下一张图片的效果" formType="select" label="动画方式" name="easing" ptype="text">
+                
+                    <option value="easeNone" selected="selected">最原始均速</option>
+                    <option value="easeBothStrong">弹性效果</option>
+                    <option value="elasticOut">变幻→抖动</option>
+                    <option value="bounceOut">变幻→抖动(强)</option>
+                    <option value="easeInStrong">先慢后快_(强)</option>
+                    <option value="easeOutStrong">先快后慢_(强)</option>
+                    <option value="elasticIn">抖动→变幻</option>
+                    <option value="easeIn">先慢后快_(弱)</option>
+                    <option value="easeOut">先快后慢_(弱)</option>
+                    <option value="easeBoth">普通滚动</option>
+  
+   
+                </param>
+                <param description="鼠标经过触发或者鼠标点击触发" formType="select" label="触发方式" name="triggerType" ptype="text">
+
+                    <option value="mouse" selected="selected">经过触发</option>
+                    <option value="click">点击触发</option>
+  
+
+                 </param>
+                <param description="自动播放" formType="select" label="自动播放" name="autoplay" ptype="text">
+
+                
+                    <option value="true" selected="selected">开启</option>
+                    <option value="false">关闭</option>
+
+                 </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

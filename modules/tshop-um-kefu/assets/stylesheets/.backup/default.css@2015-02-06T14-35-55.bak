@@ -1,0 +1,44 @@
+/**
+ * 模块：tshop-um-kefu 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-kefu"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-kefu { margin-bottom: 8px; }
+.tshop-um-kefu .container { background: #FFFFFF; border: 1px solid #F5E9D9; width: 948px; height: 85px; position: relative; overflow: hidden; }
+.tshop-um-kefu .container190 { width: 188px; height: auto; }
+.tshop-um-kefu .container .hd { float: left; width: 190px; height: 85px; display: inline; overflow: hidden; background: url(../../assets/images/kufuww.gif) no-repeat; }
+.tshop-um-kefu .container190 .hd { float: none; display: block; }
+.tshop-um-kefu .container .bd { float: left; width: 550px; height: 85px; display: inline; overflow: hidden; }
+.tshop-um-kefu .container190 .bd { width: 178px; height: auto; padding: 5px; float: none; display: block; }
+.tshop-um-kefu .container .shijian { float: left; border-left: 1px dotted #F5E9D9; padding-left: 8px; padding-top: 5px; width: 180px; height: 80px; display: block; line-height: 16px; display: inline; overflow: auto; color: #896A5B; letter-spacing: 1px; }
+.tshop-um-kefu .container190 .shijian { float: none; display: block; height: auto; width: 178px; line-height: 20px; padding-bottom: 8px; border-top: 1px solid #F5E9D9; border-left: none; }
+.tshop-um-kefu .container .shijian .shibt { background: url(../../assets/images/1.gif) no-repeat; height: 25px; line-height: 25px; padding-left: 30px; font-weight: 700; }
+.tshop-um-kefu .container .bd .wwbt { float: left; width: 18px; height: 70px; padding-top: 5px; line-height: 15px; display: inline-block; overflow: hidden; margin-top: 3px; border: 1px solid #F5E9D9; color: #D36C73; text-align: center; margin-left: 6px; }
+.tshop-um-kefu .container .bd .w2 { margin-left: 9px; border: 1px solid #F5E9D9; }
+.tshop-um-kefu .container .bd .wang { float: left; }
+.tshop-um-kefu .container190 .bd .w2, .tshop-um-kefu .container190 .bd .wwbt { width: 176px; height: 25px; float: none; display: block; margin: 0; padding: 0; line-height: 25px; overflow: hidden; color: #EB858C; }
+.tshop-um-kefu .container .bd .wang .wa { width: 52px; height: 70px; display: inline-block; font-size: 0; text-align: center; margin-left: 6px; margin-top: 8px; overflow: hidden; }
+.tshop-um-kefu .container190 .bd .wang .wa { margin-left: 4px; }
+.tshop-um-kefu .container .bd .wang .wa a { border: 1px solid #F5E9D9; width: 50px; height: 50px; overflow: hidden; display: block; font-size: 12px; position: relative; }
+.tshop-um-kefu .container .bd .wang .wa img { bottom: 1px; right: 1px; position: absolute; }
+.tshop-um-kefu .container .bd .wang span { color: #896A5B; font-size: 12px; }
+.tshop-um-kefu .container .wwbp { width: 550px; height: 85px; overflow: hidden; }
+.tshop-um-kefu .container .wwbp .nr { width: 550px; height: 70px; padding: 10px 0px 10px 0px; }
+.tshop-um-kefu .container .wwbp .ww_ul { width: 550px; height: 30px; overflow: hidden; }
+.tshop-um-kefu .container .wwbp .wwbt_li { height: 30px; line-height: 30px; float: left; text-align: center; margin-right: 10px; color: #896A5B; }
+.tshop-um-kefu .container .wwbp .wwbp_li { float: left; height: 25px; line-height: 25px; display: block; white-space: nowrap; padding-top: 5px; margin-right: 10px; color: #896A5B; overflow: hidden; display: inline; }
+.tshop-um-kefu .container190 .wwbp .wwbp_li { margin-left: 3px; }
+.tshop-um-kefu .container190 .wwbp { width: 178px; height: auto; padding: 5px; }
+.tshop-um-kefu .container190 .wwbp .nr { width: 178px; height: auto; }
+.tshop-um-kefu .container190 .wwbp .ww_ul { width: 178px; height: auto; }
+.tshop-um-kefu .container190 .wwbp .wwbt190 { float: none; display: block; width: 176px; height: 25px; line-height: 25px; margin: 0; border: 1px dotted #F5E9D9; padding: 0; color: #EB858C; }
+.tshop-um-kefu .container .wwbp .shijian { float: left; border-left: 1px dotted #F5E9D9; padding-left: 8px; padding-top: 5px; width: 180px; height: 80px; display: block; line-height: 16px; display: inline; overflow: auto; color: #896A5B; letter-spacing: 1px; }
+.tshop-um-kefu .container190 .wwbp .shijian { float: none; display: block; height: auto; width: 178px; line-height: 20px; padding-bottom: 8px; border-top: 1px solid #F5E9D9; border-left: none; }
+.tshop-um-item-daipeitj { position: relative; margin-bottom: 8px; overflow: hidden; *zoom:1;
+}
+.tshop-um-item-daipeitj .hd { background: #FFFFFF; border: 1px solid #F5E9D9; border-bottom: none; width: 948px; height: 35px; overflow: hidden; position: relative; color: #896A5B; }

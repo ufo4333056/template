@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-zhekou</id>
+    <uuid>7deada52822a4a32b8067e2fb9dc54d3</uuid>
+    <name>限时折扣</name>
+    <file>tshop-um-zhekou.php</file>
+    <thumbnail>../../assets/images/zhekou.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="宝贝">
+            <section title="筛选宝贝" folded="false">
+                <param description="选择效果图时，加载设计师指定的商品图" formType="range" label="商品加载方式" name="qzz1_0" ptype="text">
+                <option value="1" selected="selected">自动</option>
+                <option value="2">手动</option>
+                <option value="3">类目</option>
+                <option value="4">关键字</option>
+                
+            </param>
+                <param description="宝贝选择器" formType="itemForm" label="手动选择商品" name="qzz1_1" ptype="item">22,21</param>
+                <param description="手动选择1个类目" formType="categoryForm" label="店铺类目选择" name="qzz1_2" ptype="category"/>
+                <param description="手动输入1个关键字" formType="text" label="按关键字选择" name="qzz1_3" ptype="text"/>
+                <param description="排序方式" formType="select" label="商品排序方式" name="qzz1_4" ptype="text">
+                <option value=" " selected="selected">无排序(选择宝贝的先后顺序排序)</option>
+                <option value="coefp">人气宝贝升序排序</option>
+                <option value="_coefp">人气宝贝降序排序</option>
+                <option value="hotsell">热销宝贝升序排序</option>
+                <option value="_hotsell">热销宝贝降序排序</option>
+                <option value="price">以宝贝价格升序排序</option>
+                <option value="_price">以宝贝价格降序排序</option>
+                <option value="newOn">以最新上架宝贝升序排序</option>
+                <option value="_newOn">以最新上架宝贝降序排序</option>
+                <option value="HotKeep">以热门搜藏升序排序</option>
+                <option value="_HotKeep">以热门搜藏降序排序</option>
+            </param>
+                <param description="图片尺寸：400*400，图片间用#号分隔，和已选择宝贝顺序一一对应，如：http://xxx.jpg#http://xxx1.jpg" formType="textarea" label="自定义图片" name="zdy_pic" ptype="textarea">http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg#http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg#http://img02.taobaocdn.com/bao/uploaded/i2/16775055625757835/TB20jGpaVXXXXaGXpXXXXXXXXXX_!!32096775-0-saturn_solar.jpg_220x10000.jpg#</param>
+                <param description="评价选择器" formType="itemRateForm" label="手动选择商品" name="qzz1_6" ptype="itemRate">[{"comments":[],"itemId":22},{"comments":[],"itemId":21},{"comments":[],"itemId":20}]</param>
+                <param description="" formType="text" label="评价标题" name="pjbt" ptype="textarea">买家好评推荐</param>
+                <param description="" formType="range" label="评价加载方式" name="pjjzfs" ptype="text">
+                <option value="1">显示掌柜内容</option>
+                <option value="0" selected="selected">显示买家评价</option>
+              
+                
+            </param>
+                <param description="" formType="text" label="评价内容" name="pjnr" ptype="textarea">宝贝图实物拍摄,因光线不同有所色差,以实物为准;所有商品均为专柜正品,价格已调到最低,请勿议价;本店已加入七天无理由退换,请放心购买</param>
+            </section>
+            <section title=" 品质图标/倒计时" folded="true">
+                <param description="" formType="range" label="功能选择" name="gnxz" ptype="text">
+                    <option value="1">显示品质标志</option>
+                    <option value="0" selected="selected">显示倒计时</option>
+                </param>
+                <param description="时间格式：2013-05-01 09:05:00，支持为每个宝贝单独设置结束时间，设置方法：每个宝贝的结束时间用#号分隔" formType="text" label="活动结束时间" name="djs" ptype="textarea">2015-02-01 09:05:00#2015-02-02 09:05:00#2015-02-03 09:05:00</param>
+            </section>
+        </group>
+        <group title="宝贝参数">
+            <section title="宝贝参数" folded="false">
+                <param description="" formType="range" label="价格小数" name="jinpinzs_pricexshu" ptype="text">                   
+                    <option value="2">2位</option>
+                    <option value="1" selected="selected">1位</option>
+                    <option value="0">隐藏</option>   
+                </param>
+                <param description="" formType="range" label="宝贝销量" name="jinpinzs_xiaoliang" ptype="text">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+                </param>
+                <param description="" formType="range" label="分享宝贝" name="jinpinzs_fenxiang" ptype="text">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+                </param>
+                <param description="" formType="range" label="收藏宝贝" name="jinpinzs_shouc" ptype="text">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+                </param>
+                <param description="" formType="range" label="喜欢" name="jinpinzs_xihuan" ptype="text">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+                </param>
+            </section>
+        </group>
+        <group title="标题">
+            <section title="标题栏设置" folded="false">
+                <param description="" formType="select" label="标题类型" name="title_type" ptype="text">
+                    <option value="1">居中大标题(可自写标题文字)</option>
+                    <option value="2">靠左大标题一(可自写标题文字)</option>
+                    <option value="3">靠左大标题二(可自写标题文字)</option>
+                    <option value="4">靠左小标题(可自写标题文字)</option>
+                    <option value="5">居中小标题(可自写标题文字)</option>     
+                    <option value="0" selected="selected">不显示标题栏</option>
+                </param>
+                <param description="" formType="text" label="标题文字" name="title_txt" ptype="textarea"/>
+                <param description="" formType="range" label="“查看更多”显隐" name="more_show" ptype="textarea">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+                </param>
+                <param description="" formType="text" label="“查看更多”链接" name="more_url" ptype="textarea"/>
+            </section>
+            <section title="标题栏自定义图片设置" folded="false">
+                <param description="" formType="text" label="图片高度" name="valuetj_bjheight" ptype="textarea">100</param>
+                <param description="" formType="text" label="图片链接" name="valuetj_bjtu" ptype="textarea"/>
+                <param description="" formType="text" label="页面链接" name="valuetj_bjlink" ptype="textarea"/>
+            </section>
+        </group>
+        <group title="轮播设置">
+            <section title="轮播设置" folded="false">
+                <param description="自动播放" formType="select" label="自动播放" name="autoplay" ptype="text">
+                    <option value="true" selected="selected">开启</option>
+                    <option value="false">关闭</option>
+                 </param>
+                <param description="选择切换时的动画效果" formType="select" label="动画效果" name="effect" ptype="text">
+                   
+                    <option value="none">朴素效果</option>
+                    <option value="scrolly">垂直滚动</option>
+                    <option value="scrollx" selected="selected">水平滚动</option>
+                    <option value="fade">渐变滚动</option>
+   
+                 </param>
+                <param description="每隔多少秒刷新一次" formType="select" label="切换图片间隔" name="interval" ptype="text">                    
+                    <option value="1">1秒</option>
+                    <option value="2">2秒</option>
+                    <option value="3" selected="selected">3秒</option>
+                    <option value="4">4秒</option>
+                    <option value="5">5秒</option>
+   
+                 </param>
+                <param description="一张图片轮播到下一张图片的效果" formType="select" label="动画方式" name="easing" ptype="text">
+                
+                    <option value="easeNone" selected="selected">最原始均速</option>
+                    <option value="easeBothStrong">弹性效果</option>
+                    <option value="elasticOut">变幻→抖动</option>
+                    <option value="bounceOut">变幻→抖动(强)</option>
+                    <option value="easeInStrong">先慢后快_(强)</option>
+                    <option value="easeOutStrong">先快后慢_(强)</option>
+                    <option value="elasticIn">抖动→变幻</option>
+                    <option value="easeIn">先慢后快_(弱)</option>
+                    <option value="easeOut">先快后慢_(弱)</option>
+                    <option value="easeBoth">普通滚动</option>
+  
+   
+                 </param>
+                <param description="一张图切换到第二张图的速度" formType="select" label="滚动速度" name="duration" ptype="text">                    
+                    <option value="0.1">快</option>
+                    <option value="0.3" selected="selected">中</option>
+                    <option value="0.5">较慢</option>
+                    <option value="1">慢</option>
+   
+                 </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

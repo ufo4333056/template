@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-kefu</id>
+    <uuid>e4ddd2f231724e12a7ecce9a5bac5b1e</uuid>
+    <name>客服中心</name>
+    <file>tshop-um-kefu.php</file>
+    <thumbnail>../../assets/images/kefu.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="旺旺设置">
+            <section title="售前客服设置" folded="false">
+                <param description="输入标题如:售前客服" formType="text" label="售前客服" name="kefuwangbt" ptype="text">售前客服</param>
+                <param description="多个旺旺用#分开,旺旺帐户名,(登录旺旺时用的名称)" formType="textarea" label="旺旺帐户名" name="kefuwang" ptype="textarea">ufo4333056#ufo4333056#ufo4333056#ufo4333056#ufo4333056</param>
+                <param description="客服呢称,多个名称用|分开" formType="textarea" label="客服呢称" name="kefuwwname" ptype="textarea">贴心#用心#热情#贴心#米米</param>
+                <param description="多张图片用#分开,50X50px大小" formType="textarea" label="旺旺背景图片" name="kefubjphoto" ptype="textarea">http://img03.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/1.jpg#http://img04.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/2.jpg|http://img01.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/3.jpg#http://img02.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/4.jpg#http://img03.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/5.jpg</param>
+            </section>
+            <section title="售后客服设置" folded="false">
+                <param description="输入标题如:售后客服" formType="text" label="售后客服" name="kefuwangshbt" ptype="text">售后客服</param>
+                <param description="多个旺旺用#分开,旺旺帐户名,(登录旺旺时用的名称)" formType="textarea" label="旺旺帐户名" name="kefuwang_al" ptype="textarea">ufo4333056#ufo4333056#ufo4333056</param>
+                <param description="客服呢称,多个名称用|分开" formType="textarea" label="客服呢称" name="kefuwwname_al" ptype="textarea">热情#耐心#用心</param>
+                <param description="多张图片用|分开,50X50px大小" formType="textarea" label="旺旺背景图片" name="kefubjphoto_al" ptype="textarea">http://img04.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/6.jpg#http://img01.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/7.jpg#http://img02.taobaocdn.com/L1/142/415525287/modules/tshop-um-kefuzhongxin/assets/images/8.jpg</param>
+            </section>
+        </group>
+        <group title="营业时间">
+            <section title="时间设置" folded="false">
+                <param description="输入标题：如营业时间" formType="text" label="营业时间" name="kefushijian" ptype="text">本店客服在线时间</param>
+                <param description="" formType="textarea" label="时间内容" name="kefushijiantxt" ptype="textarea">白班客服：09:00-18:00 &#xd;
+晚班客服：19:00-23:30 &#xd;
+真诚 微笑 服务您~</param>
+            </section>
+        </group>
+        <group title="显示设置">
+            <section title="显示设置" folded="false">
+                <param description="请选择" formType="select" label="客服风格" name="wwxuanzhe" ptype="text">
+                    <option value="1">美女头像旺旺</option>
+                    <option value="0" selected="selected">普通旺旺风格</option>
+                 </param>
+                <param description="普通旺旺可选择图标风格,美女旺旺默认小图标显示" formType="select" label="图标风格" name="subshoustyle_shang" ptype="textarea">
+                    <option value="1">大图标</option>
+                    <option value="2" selected="selected">小图标</option>
+                </param>
+                <param description="请选择" formType="select" label="营业时间" name="kefushijianshizi" ptype="text">
+                     <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+
+                 </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

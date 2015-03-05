@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-fenlei</id>
+    <uuid>89528f8b44c040258f6c03f5b9465912</uuid>
+    <name>热门分类</name>
+    <file>tshop-um-fenlei.php</file>
+    <thumbnail>../../assets/images/fenlei.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="类目">
+            <section title="类目设置" folded="false">
+                <param description="" formType="range" label="类目排列方式" name="show_style" ptype="text">
+                    
+                     <option value="row-style">横向</option>
+                     <option value="col-style" selected="selected">竖向</option>
+                 </param>
+                <param description="" formType="range" label="获取方式" name="load_type" ptype="text">
+                    
+                     <option value="1">筛选类目</option>
+                     <option value="2" selected="selected">自定义类目</option>
+                 </param>
+                <param description="描述信息就是要太长！" formType="categoryForm" label="分类选择器" name="cate" ptype="category">[ {&#xd;
+  "childIds" : "141,142",&#xd;
+  "rid" : "140"&#xd;
+}, {&#xd;
+  "childIds" : "131,132,133,134",&#xd;
+  "rid" : "130"&#xd;
+}, {&#xd;
+  "childIds" : "121,122,123,124,125,126,127",&#xd;
+  "rid" : "120"&#xd;
+}, {&#xd;
+  "childIds" : "111,112",&#xd;
+  "rid" : "110"&#xd;
+} ]</param>
+                <param description="例：第1行(或列)第4个红色、第2行(或列)第1个绿色，则填：1,4,a*2,1,b，字母a到f分别代表6种颜色的hot图标" formType="textarea" label="突显子类" name="highlight_set" ptype="textarea">1,1,a*2,1,e*3,3,d*4,3,b*5,5,c*6,2,f*3,4,d</param>
+            </section>
+            <section title="自定义类目-1" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats0" ptype="text">新品上市#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats0" ptype="textarea">12月25号上新#12月18号上新#12月17号上新#12月08号上新#12月05号上新</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href0" ptype="textarea"/>
+            </section>
+            <section title="自定义类目-2" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats1" ptype="text">品牌女装#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats1" ptype="textarea">针织衫#连衣裙#小西装#婚纱/礼服#牛仔裤#短外套#毛衣</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href1" ptype="textarea"/>
+            </section>
+            <section title="自定义类目-3" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats2" ptype="text">精品男装#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats2" ptype="textarea">毛衣/风衣#皮草/皮衣#夹克/卫衣</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href2" ptype="textarea"/>
+            </section>
+            <section title="自定义类目-4" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats3" ptype="text">性感内衣#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats3" ptype="textarea">保暖套装#精品文胸#男士内裤#女士内裤#保暖上衣</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href3" ptype="textarea"/>
+            </section>
+            <section title="自定义类目-5" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats4" ptype="text">时尚家居#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats4" ptype="textarea">家居套装#情侣内衣#家居上衣#家居女裙#睡袍浴袍</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href4" ptype="textarea"/>
+            </section>
+            <section title="自定义类目-6" folded="true">
+                <param description="格式：名称#超链接" formType="text" label="大类目" name="pcats5" ptype="text">价格区分#http://www.taobao.com</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类名称" name="ccats5" ptype="textarea">0元-99元#100元-159元#160元-229元#229元-299元#300元-599元#600元-799元#800元以上</param>
+                <param description="名称之间用#号分隔" formType="textarea" label="子类链接" name="ccats_href5" ptype="textarea"/>
+            </section>
+        </group>
+        <group title="设置">
+            <section title="" folded="false">
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

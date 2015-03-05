@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ad2</id>
+    <uuid>89fb594fc51443fab3ab41abc08c680d</uuid>
+    <name>促销广告</name>
+    <file>tshop-um-ad2.php</file>
+    <thumbnail>../../assets/images/ad2.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="促销广告">
+            <section title="" folded="false">
+                <param description="促销广告排版" formType="select" label="促销广告排版" name="col_cnt" ptype="text">
+                    <option value="1">1张</option>  
+                    <option value="2">2张</option>
+					<option value="3" selected="selected">3张</option>
+					<option value="4">4张</option>
+                </param>
+                <param description="图片高度" formType="text" label="图片高度" name="g_height" ptype="number"/>
+            </section>
+            <section title="图1" folded="false">
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="默认图片" name="defpic0" ptype="text"/>
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="鼠标滑过图片" name="hoverpic0" ptype="text"/>
+                <param description="活动页面链接或宝贝链接，如:http://www.taobao.com" formType="text" label="活动链接" name="link0" ptype="text">http://www.taobao.com/</param>
+            </section>
+            <section title="图2" folded="false">
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="默认图片" name="defpic1" ptype="text"/>
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="鼠标滑过图片" name="hoverpic1" ptype="text"/>
+                <param description="活动页面链接或宝贝链接，如:http://www.taobao.com" formType="text" label="活动链接" name="link1" ptype="text"/>
+            </section>
+            <section title="图3" folded="false">
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="默认图片" name="defpic2" ptype="text"/>
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="鼠标滑过图片" name="hoverpic2" ptype="text"/>
+                <param description="活动页面链接或宝贝链接，如:http://www.taobao.com" formType="text" label="活动链接" name="link2" ptype="text"/>
+            </section>
+            <section title="图4" folded="false">
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="默认图片" name="defpic3" ptype="text"/>
+                <param description="图片地址，如：http://xx.x.jpg" formType="text" label="鼠标滑过图片" name="hoverpic3" ptype="text"/>
+                <param description="活动页面链接或宝贝链接，如:http://www.taobao.com" formType="text" label="活动链接" name="link3" ptype="text"/>
+            </section>
+        </group>
+        <group title="设置">
+            <section title="" folded="false">
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>

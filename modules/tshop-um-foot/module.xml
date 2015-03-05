@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-foot</id>
+    <uuid>e86e86a8086a43679f042a94b9e89109</uuid>
+    <name>底部</name>
+    <file>tshop-um-foot.php</file>
+    <thumbnail>../../assets/images/foot.png</thumbnail>
+    <description></description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="主体内容">
+            <section folded="false">
+                <param description="" formType="text" label="1-标题" name="main_t1" ptype="text">购前必读</param>
+                <param description="" formType="textarea" label="内容" name="main_c1" ptype="textarea">我们承诺百分百品质保证，七天无理由退换货，完美的售后，请亲们放心购买。</param>
+                <param description="" formType="text" label="2-标题" name="main_t2" ptype="text">温馨2提示</param>
+                <param description="" formType="textarea" label="内容" name="main_c2" ptype="textarea">购买后如发现质量问题请与我们联系，我们将及时解决，本店拒绝任何理由的中差评。</param>
+                <param description="" formType="text" label="3-标题" name="main_t3" ptype="text">关于色差</param>
+                <param description="" formType="textarea" label="内容" name="main_c3" ptype="textarea">店内所有宝贝均为实物拍摄，由于各显示器不同，会有色差，请以收到实物颜色为准。收到实物颜色为准。</param>
+                <param description="" formType="text" label="4-标题" name="main_t4" ptype="text">关于快递</param>
+                <param description="" formType="textarea" label="内容" name="main_c4" ptype="textarea">本店默认**快递，每天下午5点以前拍下，均可当天发货，5点后次日发货。</param>
+            </section>
+        </group>
+        <group title="客服区">
+            <section folded="false">
+                <param description="如：售后客服" formType="text" label="组1、——组名" name="cus_t1" ptype="text">售前：</param>
+                <param description="昵称间用#号分隔，和账号一一对应" formType="text" label="旺旺昵称" name="cus_acn1" ptype="text">莉莉#泡泡#美美</param>
+                <param description="账号间用#号分隔" formType="text" label="旺旺账号" name="cus_acc_1" ptype="text">ufo4333056#ufo4333056#ufo4333056</param>
+                <param description="如：售后客服" formType="text" label="组2、——组名" name="cus_t2" ptype="text">售前：</param>
+                <param description="昵称间用#号分隔，和账号一一对应" formType="text" label="旺旺昵称" name="cus_acn2" ptype="text">莉莉#泡泡#美美</param>
+                <param description="账号间用#号分隔" formType="text" label="旺旺账号" name="cus_acc_2" ptype="text">ufo4333056#ufo4333056#ufo4333056</param>
+                <param description="" formType="text" label="提醒内容" name="work_time" ptype="text">营业时间：09:00AM-24:00PM 节假日另行通知</param>
+            </section>
+        </group>
+        <group title="设置">
+            <section folded="false">
+                <param description="如：售后客服" formType="range" label="导购流程图显隐" name="guide_on" ptype="text">
+                    <option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>
+
+                 </param>
+                <param description="默认尺寸：950*129，尺寸中高度不限" formType="text" label="导购流程图" name="guide" ptype="text"/>
+                <param description="" formType="text" label="预置搜索框文字" name="s_txt" ptype="text">美女</param>
+                <param description="" formType="checkbox" label="导购流程图显隐" name="show_select" ptype="text">
+                    <option value="1" selected="selected">搜索框</option>
+                    <option value="2" selected="selected">所有宝贝快捷链接</option>
+                    <option value="3" selected="selected">返回顶部</option>
+                     <option value="4" selected="selected">收藏店铺</option>
+                      <option value="5" selected="selected">分享店铺</option>
+
+
+
+
+                 </param>
+                <param description="SNS收藏无效时使用收藏链接方式，SNS方式点击收藏不打开新窗口，收藏链接方式点击收藏打开新窗口" formType="range" label="收藏类型" name="sc_type" ptype="text">
+                    <option value="1" selected="selected">SNS收藏</option>
+                    <option value="0">收藏链接</option>
+
+                 </param>
+                <param description="" formType="select" label="模块间距" name="mod_mb" ptype="text">
+                	 <option value="10" selected="selected">10像素</option>
+                    <option value="5">5像素</option>
+                    <option value="0">无间距</option>
+                 </param>
+            </section>
+        </group>
+    </parameters>
+</module>
