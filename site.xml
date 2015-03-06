@@ -16,8 +16,8 @@
         <header>header.json</header>
         <footer>footer.json</footer>
     </global>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="简约">
+        <theme name="简约">
             <css>assets/stylesheets/default/extra.css</css>
             <thumbnail>assets/images/default-thumbnail.png</thumbnail>
         </theme>

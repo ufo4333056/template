@@ -9,10 +9,8 @@
  */
 
 .tshop-um-banner {display:block }
-.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;
-}
-.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;
-}
+.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;}
+.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;}
 .tshop-um-banner .bd { width: 950px; height: 120px; overflow: hidden; position: relative; }
 .tshop-um-banner .bd .banner { position: absolute; }
 .tshop-um-banner .bd .zhidai { background: url(../../assets/images/dz2.gif) no-repeat scroll 0 0; overflow: hidden; top: 0; left: 0; width: 950px; height: 120px; display: block; }

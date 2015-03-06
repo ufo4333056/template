@@ -8,8 +8,8 @@
     <description></description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="简约">
+        <theme name="简约">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>

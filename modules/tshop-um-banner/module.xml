@@ -8,8 +8,8 @@
     <description>店铺招牌</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="简约">
+        <theme name="简约">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
@@ -21,14 +21,14 @@
                     <option value="0">图片</option>
                 </param>
                 <param description="店招背景高度" formType="text" label="店招背景高度" name="banner_height" ptype="number">120</param>
-                <param description="店招图片地址" formType="text" label="店招图片地址" name="banner_picture" ptype="text"/>
+                <param description="店招图片地址" formType="text" label="店招图片地址" name="banner_picture" ptype="text"></param>
             </section>
             <section title="店招文字设置" folded="true">
                 <param description="左边距" formType="text" label="左边距" name="wz_left" ptype="number">100</param>
                 <param description="上边距" formType="text" label="上边距" name="wz_top" ptype="number">25</param>
                 <param description="店铺名称" formType="text" label="店铺名称" name="title_wz" ptype="text">这是一个美丽的店</param>
                 <param description="字体大小" formType="text" label="字体大小" name="font_size" ptype="number">36</param>
-                <param description="字体颜色 如:#f94551" formType="text" label="字体颜色" name="color" ptype="text">#f94551</param>
+                <param description="字体颜色 如:#f94551" formType="text" label="字体颜色" name="color" ptype="text">#000000</param>
                 <param description="字体选择" formType="select" label="字体选择" name="family" ptype="text">
                     <option value="微软雅黑" selected="selected">微软雅黑</option>
                     <option value="黑体">黑体</option>
@@ -40,7 +40,7 @@
                     <option value="bold" selected="selected">加粗</option>
                     <option value="normal">不加粗</option>                 
                 </param>
-                <param description="字体间距" formType="text" label="字体间距" name="letter_spacing" ptype="number">10</param>
+                <param description="字体间距" formType="text" label="字体间距" name="letter_spacing" ptype="number">0</param>
             </section>
             <section title="搜索设置" folded="true">
                 <param description="如,包邮,促销,外套,最热卖的服装关键字" formType="text" label="搜索热门字" name="hotwz" ptype="text">新品</param>
@@ -50,7 +50,7 @@
             <section title="店铺logo设置" folded="true">
                 <param description="左边距" formType="text" label="左边距" name="logo_left" ptype="number">0</param>
                 <param description="上边距" formType="text" label="上边距" name="logo_top" ptype="number">0</param>
-                <param description="图片尺寸90*90px,使用PNG透明底图片效果最好" formType="text" label="LOGO图片地址" name="logo" ptype="text"/>
+                <param description="图片尺寸90*90px,使用PNG透明底图片效果最好" formType="text" label="LOGO图片地址" name="logo" ptype="text"></param>
             </section>
         </group>
         <group title="滚动文字">
