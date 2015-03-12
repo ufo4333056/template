@@ -21,10 +21,10 @@
                     <option value="0">图片</option>
                 </param>
                 <param description="店招背景高度" formType="text" label="店招背景高度" name="banner_height" ptype="number">120</param>
-                <param description="店招图片地址" formType="text" label="店招图片地址" name="banner_picture" ptype="text"></param>
+                <param description="店招图片地址" formType="text" label="店招图片地址" name="banner_picture" ptype="text">http://img.taobao.com/L1/142/417533648/modules/tshop-um-shop-sign/assets/images/black-hd.gif</param>
             </section>
             <section title="店招文字设置" folded="true">
-                <param description="左边距" formType="text" label="左边距" name="wz_left" ptype="number">100</param>
+                <param description="左边距" formType="text" label="左边距" name="wz_left" ptype="number">0</param>
                 <param description="上边距" formType="text" label="上边距" name="wz_top" ptype="number">25</param>
                 <param description="店铺名称" formType="text" label="店铺名称" name="title_wz" ptype="text">这是一个美丽的店</param>
                 <param description="字体大小" formType="text" label="字体大小" name="font_size" ptype="number">36</param>
@@ -44,25 +44,16 @@
             </section>
             <section title="搜索设置" folded="true">
                 <param description="如,包邮,促销,外套,最热卖的服装关键字" formType="text" label="搜索热门字" name="hotwz" ptype="text">新品</param>
-                <param description="搜索左边距" formType="text" label="搜索左边距" name="so_left" ptype="number">500</param>
-                <param description="搜索上边距" formType="text" label="搜索上边距" name="so_top" ptype="number">40</param>
-            </section>
-            <section title="店铺logo设置" folded="true">
-                <param description="左边距" formType="text" label="左边距" name="logo_left" ptype="number">0</param>
-                <param description="上边距" formType="text" label="上边距" name="logo_top" ptype="number">0</param>
-                <param description="图片尺寸90*90px,使用PNG透明底图片效果最好" formType="text" label="LOGO图片地址" name="logo" ptype="text"></param>
+                <param description="搜索左边距" formType="text" label="搜索左边距" name="so_left" ptype="number">820</param>
+                <param description="搜索上边距" formType="text" label="搜索上边距" name="so_top" ptype="number">126</param>
             </section>
         </group>
         <group title="滚动文字">
             <section title="" folded="false">
+                <param description="左边距" formType="text" label="左边距" name="banner_gonggao_left" ptype="number">320</param>
+                <param description="上边距" formType="text" label="上边距" name="banner_gonggao_top" ptype="number">100</param>
                 <param description="文字内容,多条文字用|分开" formType="textarea" label="滚动文字内容" name="banner_gonggao" ptype="textarea">今日促销活动开始啦|上新货啦！|每周三上新!每周三上新!每周三上新!每周三上新!|亲们记得收藏哦..了解店铺最新优惠动态|最热卖的这款补货啦|亲们记得收藏哦..了解店铺最新优惠动态|每周三上新!每周三上新!每周三上新!每周三上新!</param>
                 <param description="滚动文字链接" formType="textarea" label="滚动文字链接" name="banner_gglj" ptype="textarea">#|#|#|#|#|#|#</param>
-            </section>
-        </group>
-        <group title="客服设置">
-            <section title="" folded="false">
-                <param description="多个旺旺用|分开,旺旺帐户名,(登录旺旺时用的名称)" formType="textarea" label="旺旺帐户名" name="banner_wwxiufu" ptype="textarea">ufo4333056|ufo4333056|ufo4333056|ufo4333056</param>
-                <param description="客服呢称,多个名称用|分开" formType="textarea" label="客服呢称" name="banner_name" ptype="textarea">小汐：|光光：|大大：|小小：</param>
             </section>
         </group>
         <group title="显示设置">
@@ -84,6 +75,14 @@
                     <option value="0">隐藏</option>  
 				</param>
                 <param description="" formType="range" label="搜索宝贝" name="shaosongshezhi" ptype="text">
+				 	<option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>  
+				</param>
+                <param description="" formType="range" label="宝贝推荐" name="h-goods" ptype="text">
+				 	<option value="1" selected="selected">显示</option>
+                    <option value="0">隐藏</option>  
+				</param>
+                <param description="" formType="range" label="倒计时" name="h-time" ptype="text">
 				 	<option value="1" selected="selected">显示</option>
                     <option value="0">隐藏</option>  
 				</param>

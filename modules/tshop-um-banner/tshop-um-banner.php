@@ -24,14 +24,19 @@
  * 开始设计PHP页面
  */
 ?><?php   $_shop->domainName?>	<?php   $_shop->ownerNick?><?php   $_shop->startTime?>	
-<div class="bd" style="height:120px;">
+<div class="bd" style="height:120px;  background:url(../../assets/images/pink-hdbg.gif) no-repeat;">
 	<?php if ($_MODULE['bannerxuanze']==1){?>
-    <div class="logo " style=" position:absolute; z-index:9; left: <?php echo $_MODULLE['logo_left']?$_MODULLE['logo_left']:0;?>px; top: <?php echo $_MODULLE['logo_top']?$_MODULLE['logo_top']:0;?>px;"><img src="<?php echo $logo?>"></div>
+    
     
 				<div class="banner tlite" >
-			<h3 style=" position:absolute; left:<?php echo $_MODULE['wz_left']?>px; top:<?php echo $_MODULE['wz_top']?>px;  font-family:<?php echo $_MODULE['family']?>;font-size:<?php echo $_MODULE['font_size']?>px;color:<?php echo $_MODULE['color']?>;font-weight:<?php echo $_MODULE['font_weight']?$_MODULE['font_weight_f']:"normal"?>;letter-spacing:<?php echo $_MODULE['letter_spacing']?>px;">	<?php if($_MODULE['title_wz']) echo $_MODULE['title_wz']; else   echo  $_shop->title;?>
-				</h3>	
-		</div>  <?php  } if($_MODULE['bannerxuanze']==0) {?> 
+                <div  style=" position:absolute; left:50%; top:33px; width:100%; height:100%;">
+			<h3 style=" position: relative; left:-50%;   font-family:<?php echo $_MODULE['family']?>;font-size:<?php echo $_MODULE['font_size']?>px;color:<?php echo $_MODULE['color']?>;font-weight:<?php echo $_MODULE['font_weight']?$_MODULE['font_weight_f']:"normal"?>;letter-spacing:<?php echo $_MODULE['letter_spacing']?>px;">	<span style=" white-space: nowrap; "><?php if($_MODULE['title_wz']) echo $_MODULE['title_wz']; else   echo  $_shop->title;?></span></h3>	
+            
+		</div>  
+        </div>
+		
+		
+		<?php  } if($_MODULE['bannerxuanze']==0) {?> 
                 
                 <div class="banner <?php  if ($_MODULE['banner_picture']) { echo "diy"; } else {echo "zhidai";}?>" style="height:<?php echo $_MODULE['banner_height'];?>px;background:url(<?php echo $_MODULE['banner_picture']?>) no-repeat top center transparent;"></div>
 				  <?php }?>          
@@ -44,7 +49,7 @@
                <?php }?>           
                         
            <?php if ($_MODULE['banner_gonggaogg']){?>	             
-						<div class="banner gonggao">
+						<div class="banner gonggao" style=" position:absolute; left:<?php echo $_MODULE['banner_gonggao_left'] ?>px ;top:<?php echo $_MODULE['banner_gonggao_top'];  ?>px; ">
 			<div class="J_TWidget scroll-news" data-widget-type="Slide" data-widget-config="{'contentCls':'nav','hasTriggers':false,'effect':'scrolly','easing':'easeOutStrong','interval':3,'duration':0.1}" style="position: relative;">
 				<ul class="nav" style="position: absolute; top: -80px;">
 						
@@ -64,7 +69,7 @@
         <?php }?>
         
 			<?php if ($_MODULE['shaosongshezhi']){?>	
-				<div class="banner shouc" style=" position:absolute; left:<?php echo $_MODULE['so_left']?>px; top:<?php echo $_MODULE['so_top']?>px;">
+				<div class="banner" style=" position:absolute; left:<?php echo $_MODULE['so_left']?>px; top:<?php echo $_MODULE['so_top']?>px; background:url(../../assets/images/pink-search-bg.png) no-repeat;">
 			<div class="form">					
 				<form method="post" action="http://shop<?php echo  $_shop->id?>.taobao.com/?scene=taobao_shop" name="SearchForm">					
 					<input type="hidden" name="userId" value="">
@@ -73,7 +78,7 @@
 					<input type="hidden" name="order_type" value="">
 					<input type="hidden" name="search" value="y">
 					<input class="text" type="text" name="keyword" value="<?php echo   $_MODULE['hotwz']?>">
-					<button class="button" type="submit"></button>
+					<button class="button" type="submit" ></button>
 				</form>
 			</div>
 		</div>
@@ -83,21 +88,31 @@
 						 <?php echo  getShare("", $_shop->id, 3, "shop", "fx");//分享?>	
 		</div>
         	<?php }?>
-		 <?php if ($_MODULE['banner_wangwang']){?>	
-				<div class="banner wang">		 
-			<div class="ww tctu01">
-			</div>
-		</div> 
-		<div class="J_TWidget hidden" data-widget-type="Popup" data-widget-config="{ 'trigger':'.tctu01', 'align':{'node':'.tctu01', 'offset':[0,0], 'points':['tr','br']}}">
-			<div class="tcc">
-				<ul class="shouqian">
-                   <?php foreach($banner_name as $key=>$value ){?>
-					<li><?php echo $value?><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&touid=<?php echo $banner_wwxiufu[$key]?>&siteid=cntaobao&status=2&charset=utf-8"><img border="0" src="http://amos.im.alisoft.com/online.aw?v=2&uid=<?php echo $banner_wwxiufu[$key]?>&site=cntaobao&s=2&charset=utf-8" alt="<?php echo $value?>"></a></li>
-                   <?php }?>					
-				</ul>
-			</div>
-		</div>
-				<?php }?>
+            <?php if ($_MODULE[' h-goods']){?>	
+            <div class="h-goods" style="width:386px;"><div class="h-item-box">
+	 	 <a class="h-picbox" href="http://item.taobao.com/item.htm?id=41150599888" target="_blank" style="background-image:url(http://img01.taobaocdn.com/bao/uploaded/i1/TB1GyvGGXXXXXbMaXXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg);"></a>
+	 	 <div class="h-info h-row-2" style=""><a style="" class="h-desc" href="http://item.taobao.com/item.htm?id=41150599888" target="_blank">潜江虾皇 卤香大虾 秘制卤味小龙虾 真空包装加双冰袋 包邮</a><span class="h-price" style="">RMB<em>500.00</em></span><div class="h-tag h-tag-0" style="">新品</div></div>
+	 	 </div><div class="h-item-box">
+	 	 <a class="h-picbox" href="http://item.taobao.com/item.htm?id=41150599888" target="_blank" style="background-image:url(http://img01.taobaocdn.com/bao/uploaded/i1/TB1GyvGGXXXXXbMaXXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg);"></a>
+	 	 <div class="h-info h-row-2" style=""><a style="" class="h-desc" href="http://item.taobao.com/item.htm?id=41150599888" target="_blank">潜江虾皇 卤香大虾 秘制卤味小龙虾 真空包装加双冰袋 包邮</a><span class="h-price" style="">RMB<em>500.00</em></span><div class="h-tag h-tag-1" style="">爆款</div></div>
+	 	 </div></div>
+         
+         <?php }?>
+		
+         <?php if ($_MODULE[' h-time']){?>	
+        
+        <div style="" class="J_TWidget h-countdown" data-widget-type="Countdown" data-widget-config="{'endTime':'2015-03-11 00:00:00','interval': 1000,'timeRunCls': '.ks-countdown-run','timeUnitCls':{'d': '.ks-d','h': '.ks-h','m': '.ks-m','s': '.ks-s'},'minDigit':2,'timeEndCls':'.ks-countdown-end'}">
+	<div class="ks-countdown-run run-txt" style="">距活动开始还有:</div>
+  <div class="ks-countdown-run time-txt" style=""><span class="ks-d h-number" style="">0</span><span>天</span><span class="ks-h h-number" style="">7</span><span>时</span><span class="ks-m h-number" style="">18</span><span>分</span><span class="ks-s h-number" style="">20</span><span>秒</span></div>
+	<div class="ks-countdown-end end-txt" style="display:none;">活动已结束</div>
+</div>
+        
+       <?php }?>  
+        
+        <div class="h-sico" style=""><div class="def-ico"></div></div>
+        
+        
+        
 	</div>
 
 	

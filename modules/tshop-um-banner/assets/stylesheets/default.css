@@ -8,23 +8,23 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-banner {display:block }
-.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;}
-.tshop-um-banner { position: relative; overflow: hidden; *zoom:1;}
-.tshop-um-banner .bd { width: 950px; height: 120px; overflow: hidden; position: relative; }
+.tshop-um-banner {display:block  ; z-index:99;}
+.tshop-um-banner { position: relative;  *zoom:1;}
+.tshop-um-banner { position: relative;  *zoom:1;}
+.tshop-um-banner .bd { width: 950px; height: 120px; position: relative; }
 .tshop-um-banner .bd .banner { position: absolute; }
 .tshop-um-banner .bd .zhidai { background: url(../../assets/images/dz2.gif) no-repeat scroll 0 0; overflow: hidden; top: 0; left: 0; width: 950px; height: 120px; display: block; }
 .tshop-um-banner .bd .diy { width: 950px; height: 120px; overflow: hidden; }
-.tshop-um-banner .bd .tlite {  top: 0; left: 0px;  width: 950px; height: 120px; text-align: center; font-size: 32px; overflow: hidden; display: block; font-family: 微软雅黑; font-weight: 700; }
-.tshop-um-banner .bd .tlite h3 { color: #f94551; }
+.tshop-um-banner .bd .tlite { position:relative;  top: 0; left: 50px;  width: 210px; height: 120px;font-size: 30px;display: block; font-family: 微软雅黑; font-weight: 700; }
+.tshop-um-banner .bd .tlite h3 { color: #f94551; position: absolute ;left:50%;   }
 .tshop-um-banner .bd .ggbt { top: 20px; left: 495px; display: block; height: 22px; line-height: 22px; color: #FFFFFF; width: 30px; overflow: hidden; }
-.tshop-um-banner .bd .gonggao { background: url(../../assets/images/shouc.gif) no-repeat scroll 0 -75px; padding-left: 15px; top: 100px; left: 10px; width: 300px; height: 16px; line-height: 16px; overflow: hidden; }
-.tshop-um-banner .bd .gonggao a { text-align: left; font-size: 12px; color: #B98064; text-decoration: none; }
+.tshop-um-banner .bd .gonggao { background: url(../../assets/images/pink-laba.png) no-repeat  0 center ; padding-left: 15px; top: 100px; left: 10px; width: 300px; height: 16px; line-height: 16px; overflow: hidden; }
+.tshop-um-banner .bd .gonggao a { text-align: left; font-size: 12px; color: #000; text-decoration: none; }
 .tshop-um-banner .bd .scroll-news { height: 16px; overflow: hidden; }
 .tshop-um-banner .bd .nav li { width: 300px; height: 16px; display: block; overflow: hidden; }
-.tshop-um-banner .bd .shoucang { top: 35px; right: 5px; width: 155px; height: 35px; overflow: hidden; }
-.tshop-um-banner .bd .shoucang a { width: 155px; height: 35px; display: block; background:url(../../assets/images/pink-scpic.png) no-repeat; }
-.tshop-um-banner .bd .wang, .tshop-um-banner .bd .fenxiang { top: 97px; left: 803px; width: 73px; height: 23px; line-height: 23px; overflow: hidden; background: #F59299; color: #FFFFFF; text-align: center; background: url(../../assets/images/shouc.gif) no-repeat scroll 0 -25px; }
+.tshop-um-banner .bd .shoucang { top: 35px; right: 5px;  overflow: hidden; }
+.tshop-um-banner .bd .shoucang a { width: 128px; height: 70px; display: block; background:url(../../assets/images/pink-shoucang.png) no-repeat; }
+.tshop-um-banner .bd .wang, .tshop-um-banner .bd .fenxiang { top: 55px; left: 320px; width: 73px; height: 23px; line-height: 23px; overflow: hidden; background: #F59299; color: #FFFFFF; text-align: center; background: url(../../assets/images/pink-fenxiang.png) no-repeat ; }
 .tshop-um-banner .bd .wang { left: 878px; background: url(../../assets/images/shouc.gif) no-repeat scroll 0 0px; }
 .tshop-um-banner .bd .fx { line-height: 23px; height: 23px; padding: 0px; cursor: pointer; color: #FFFFFF; }
 .tshop-um-banner .gouwu a { color: #FFFFFF; height: 23px; line-height: 23px; text-align: left; text-decoration: none; overflow: hidden; }
@@ -34,6 +34,19 @@
 .tshop-um-banner .bd .tcc .shouqian { width: 214px; height: 40px; line-height: 20px; display: block; text-align: center; color: #7B7B7B; overflow: hidden; }
 .tshop-um-banner .bd .tcc li { float: left; white-space: nowrap; padding-left: 5px; text-align: center; }
 .tshop-um-banner .bd .shouc { background: url(../../assets/images/shouc.gif) no-repeat scroll 0 -50px; top: 0px; left: 0px; width: 189px; height: 25px; line-height: 25px; color: #EB858C; overflow: hidden; display: block; white-space: nowrap; font-size: 0; }
-.tshop-um-banner .bd .shouc .form { border: medium none; background: none; display: inline; width: 182px; height: 25px; line-height: 25px; padding-left: 5px; font-size: 12px; display: inline-block; overflow: hidden; vertical-align: bottom; font-size: 0; }
-.tshop-um-banner .bd .shouc .form .text { border: medium none; background: none; width: 108px; height: 25px; line-height: 25px; color: #EB858C; font-size: 12px; display: inline-block; overflow: hidden; vertical-align: bottom; }
-.tshop-um-banner .bd .shouc .form .button { border: medium none; background: none; width: 73px; height: 25px; line-height: 25px; font-size: 12px; margin: 0; cursor: pointer; display: inline-block; overflow: hidden; vertical-align: bottom; color: #FFFFFF; }
+.tshop-um-banner .bd  .form { border: none; background: none; display: inline; width: 182px; height:18px; line-height: 18px; padding-left: 5px; font-size: 12px; display: inline-block; overflow: hidden; vertical-align: bottom; font-size: 0; }
+.tshop-um-banner .bd  .form .text { border:  none; background: none; width: 108px; height: 18px; line-height: 18px; color: #666; font-size: 12px; display: inline-block; overflow: hidden; vertical-align: bottom; }
+.tshop-um-banner .bd  .form .button { border: none; background: none; width: 30px; height:18px; line-height: 18px; font-size: 12px; margin: 0; cursor: pointer; display: inline-block; overflow: hidden; vertical-align: bottom; color: #FFFFFF; }
+
+
+
+.tshop-um-banner   .h-goods{left:430px;top:25px;position:absolute;height:75px;overflow:hidden;}.tshop-um-banner   .h-goods .h-item-box{display:block;float:left;_display:inline;border:1px;width:193px;}.tshop-um-banner   .h-goods .h-picbox{display:block;height:75px;width:75px;background:#FFF no-repeat center;float:left;}.tshop-um-banner   .h-goods .h-info{float:left;padding-left:15px;width:85px;}.tshop-um-banner   .h-goods .h-desc{display:block;overflow:hidden;line-height:18px;height:36px;}.tshop-um-banner   .h-goods .h-row-3 .h-desc{height:54px;}
+.tshop-um-banner   .h-goods a{ color:#000;}
+.tshop-um-banner  .h-goods .h-price{height:18px;line-height:18px;font-family:arial;font-weight:700;display:block;white-space:nowrap;padding-top:2px; }.tshop-um-banner   .h-goods .h-row-3 .h-price{padding-top:5px;}.tshop-um-banner   .h-goods .h-price em{padding-left:3px;}.tshop-um-banner   .h-goods .h-tag{height:16px;width:34px;line-height:15px;padding-left:7px;text-align:center;color:#FFF;margin-top:2px;}.tshop-um-banner   .h-goods .h-tag-0{ background:url(../../assets/images/h-goods-bg.png) no-repeat}.tshop-um-banner   .h-goods .h-tag-1{ background:url(../../assets/images/h-goods-bg.png) no-repeat -100px 0}
+
+
+.tshop-um-banner  .h-countdown{left:480px;top:11px;position:absolute;width:300px;height:80px;overflow:hidden;}.tshop-um-banner  .h-countdown .run-txt{height:35px;text-align:left;font-size:12px;line-height:35px;}.tshop-um-banner  .h-countdown .time-txt{text-align:left;font-size:14px;}.tshop-um-banner  .h-countdown .time-txt span{display:inline-block;vertical-align:top;height:45px;width:29px;line-height:47px;*line-height:45px;text-align:center;}.tshop-um-banner  .h-countdown .time-txt .h-number{width:45px;background:url(../../assets/images/djs-bg.png) no-repeat ;font-family:arial;font-size:28px;font-weight:700;color:#FFF;}.tshop-um-banner  .h-countdown .end-txt{line-height:97px;font-size:38px;text-align:center;}
+
+
+
+.tshop-um-banner  .h-sico{left:490px;top:38px;position:absolute;}.tshop-um-banner  .h-sico .def-ico{height:48px;width:246px;background:url(../../assets/images/pink-baozheng.png) no-repeat;}
